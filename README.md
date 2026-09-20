@@ -4,9 +4,9 @@ A deduplicated index of free/public APIs collected from multiple community-maint
 
 ## Dataset
 
-- **1826 API entries**
+- **2047 API entries**
 - **54 categories**
-- Generated: 2026-09-20T04:47:22.689Z
+- Generated: 2026-09-20T04:49:32.357Z
 - Machine-readable dataset: [data/apis.json](data/apis.json)
 - Human-readable index: [APIs.md](APIs.md)
 
