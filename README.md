@@ -8,7 +8,7 @@ The repository combines the local catalog, imported Ultimate API List records, l
 
 The local catalog contains 2,001 records. The imported Ultimate dataset contains 16,654 records after URL deduplication. Runtime federation adds registered source repositories and live catalogs.
 
-Jentic Public APIs is also registered as an external CC0 source for agent-oriented OpenAPI and Arazzo discovery. Jentic documents its public catalog as 10,000+ APIs and machine-readable agent tooling. citeturn0search0turn0search1
+Jentic Public APIs is also registered as an external CC0 source for agent-oriented OpenAPI and Arazzo discovery. Jentic documents its public catalog as 10,000+ APIs and machine-readable agent tooling.
 
 The source registry is in `data/sources.json`.
 
