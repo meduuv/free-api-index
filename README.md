@@ -1,58 +1,97 @@
 # Free API Index
 
-A source-aware API catalog built for developers and AI agents.
+A source-aware API catalog for developers and AI agents.
 
-## Local index
+## What is indexed
 
-2001 deduplicated API records are stored in data/apis.json.
+The repository combines the local catalog, imported Ultimate API List records, live machine-readable sources, and the previously collected API-directory repositories.
 
-The live federation layer in server.py adds the current public-api-lists JSON catalog, the MIT licensed public-apis-live dataset, and the category catalogs from kawsarlog/Ultimate-API-List at runtime.
+The local catalog contains 2,001 records. The imported Ultimate dataset contains 16,654 records after URL deduplication. Runtime federation adds the registered source repositories and live catalogs.
 
-The Ultimate API List advertises 50,371 records across 17 categories. Its repository currently has no detected open-source license, so this project does not copy that dataset into the repository.
+The source registry is in `data/sources.json`.
 
-## Imported Ultimate API data
+## Human developer index
 
-The repository includes 16,654 Ultimate API records after URL deduplication against the local catalog. They are stored by category under `data/ultimate/`.
+`APIs.md` is the manual index.
+
+Use it to browse:
+
+- API name
+- endpoint or documentation URL
+- description
+- authentication
+- HTTPS
+- CORS
+- category
+- source repository
+
+The source list is in `sources/REPOSITORIES.md`.
 
 ## Agent server
 
-Run:
+Start it with:
 
     python server.py
 
-Default port: 8787
+Default port: 8787.
 
-Routes:
+### Discovery routes
 
-    /health
-    /stats
-    /categories
-    /search?q=weather
-    /select?task=find a weather forecast API
-    /api/{name-or-url}
-
-The /select route is intended for agents. It returns API records with source, authentication, HTTPS, CORS and description fields.
-
-## Categories
-
-The source data keeps its original categories. The agent layer also exposes 512 virtual routing categories built from domain, operation and target combinations.
-
-## Quality rules
-
-Duplicates are keyed by canonical API URL and fall back to normalized API name.
-
-Descriptions and categories are normalized before runtime indexing.
-
-Non HTTP records are excluded by the runtime normalizer.
-
-Agents should verify documentation, authentication, rate limits and availability before use.
-
-## Files
-
-| Path | Purpose |
+| Route | Purpose |
 |---|---|
-| data/apis.json | Local deduplicated catalog |
-| server.py | Agent discovery server |
-| scripts/clean_markdown.py | Markdown cleanup pass |
-| sources/REPOSITORIES.md | Validated discovery sources |
-| APIs.md | Human readable local API index |
+| `/` | server metadata and route list |
+| `/health` | health and catalog counts |
+| `/stats` | counts, sources and cache state |
+| `/sources` | registered source repositories |
+| `/categories` | real and virtual categories |
+| `/search?q=weather` | keyword search |
+| `/select?task=weather forecast` | task-oriented API selection |
+| `/category/{name}` | category filter |
+| `/provider/{name}` | provider or source filter |
+| `/auth/{type}` | authentication filter |
+| `/random?limit=5` | random API selection |
+| `/api/{name-or-url}` | exact API lookup |
+| `/export?format=json` | filtered JSON export |
+| `/export?format=ndjson` | filtered NDJSON export |
+
+Common filters work with search and export:
+
+    ?category=Weather
+    ?auth=none
+    ?https=yes
+    ?source=public-apis
+
+## Agent selection
+
+Use `/select` when an agent has a task instead of a known API name.
+
+Example:
+
+    /select?task=find a free weather forecast API&limit=10
+
+The server only discovers and ranks metadata. It does not blindly execute third-party APIs.
+
+## Data rules
+
+- Deduplicate by canonical URL, then normalized name.
+- Preserve source attribution.
+- Keep provider URLs and documentation URLs as supplied by source catalogs.
+- Normalize descriptions and categories.
+- Treat authentication, rate limits, CORS and availability as metadata that can become stale.
+- Verify provider documentation before production use.
+
+## Regenerating documentation
+
+The repository keeps machine-readable data separate from the human index.
+
+Use the rebuild script when the catalog changes:
+
+    python scripts/rebuild_docs.py
+
+It regenerates the manual API index and developer documentation from the current data files.
+
+## License and attribution
+
+This repository contains catalog metadata and source attribution. Listed APIs, services, names, documentation and endpoints remain controlled by their respective providers.
+
+Check each source repository before redistributing source-specific data.
