@@ -112,6 +112,12 @@ def build_items():
         return cache["items"]
     with DATA_FILE.open("r", encoding="utf-8") as f:
         items = list(json.load(f).get("apis", []))
+    for path in sorted((ROOT / "data" / "ultimate").glob("*.json")):
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                items.extend(json.load(f).get("apis", []))
+        except Exception:
+            pass
     with ThreadPoolExecutor(max_workers=2) as pool:
         futures = [pool.submit(fetch_json, source["url"], source["name"]) for source in REMOTE_SOURCES]
         for future in as_completed(futures):
