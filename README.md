@@ -119,6 +119,23 @@ Imported Ultimate records live in `data/ultimate/*.json`.
 
 The runtime server merges these datasets with registered live sources and deduplicates them before serving routes.
 
+## Markdown index
+
+All Markdown files in this repository are listed in [docs/INDEX.md](docs/INDEX.md).
+
+| File | Purpose |
+|---|---|
+| [README.md](README.md) | project overview, data layout and server routes |
+| [APIs.md](APIs.md) | human-readable API catalog |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | contribution and data-quality rules |
+| [docs/INDEX.md](docs/INDEX.md) | complete Markdown file index |
+| [docs/DEVELOPERS.md](docs/DEVELOPERS.md) | developer integration manual |
+| [docs/MANUAL_DEVS.md](docs/MANUAL_DEVS.md) | manual developer workflow |
+| [docs/ROUTES.md](docs/ROUTES.md) | server route reference |
+| [docs/SOURCES.md](docs/SOURCES.md) | source and attribution reference |
+| [sources/REPOSITORIES.md](sources/REPOSITORIES.md) | registered API source repositories |
+| [sources/SOURCES.md](sources/SOURCES.md) | source details and attribution |
+
 ## Developer integration
 
 A client can treat the server as a discovery layer:
@@ -131,15 +148,3 @@ A client can treat the server as a discovery layer:
 6. Use `/related` to recover when an API is unavailable.
 
 Credentials are not stored or returned by this index.
-
-## Regenerating documentation
-
-The repository keeps machine-readable data separate from the human index.
-
-When the catalog changes, regenerate the manual API documentation with the repository documentation tooling.
-
-## License and attribution
-
-This repository contains catalog metadata and source attribution. Listed APIs, services, names, documentation and endpoints remain controlled by their respective providers.
-
-Check each source repository before redistributing source-specific data.
