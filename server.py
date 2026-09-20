@@ -1,5 +1,6 @@
 import json
 import os
+import random
 import re
 import time
 import urllib.parse
@@ -86,7 +87,7 @@ def parse_markdown(text, source, category="Other"):
     return rows
 
 def fetch_url(url, timeout=30):
-    request = urllib.request.Request(url, headers={"User-Agent": "free-api-index-agent/2.0"})
+    request = urllib.request.Request(url, headers={"User-Agent": "free-api-index-agent/3.0"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8", "replace")
 
@@ -95,15 +96,13 @@ def fetch_json(url, source):
 
 def fetch_readme(repo):
     try:
-        text = fetch_url(f"https://raw.githubusercontent.com/{repo}/HEAD/README.md")
-        return parse_markdown(text, repo)
+        return parse_markdown(fetch_url(f"https://raw.githubusercontent.com/{repo}/HEAD/README.md"), repo)
     except Exception:
         return []
 
 def fetch_ultimate_one(category):
     try:
-        text = fetch_url(f"{ULTIMATE_BASE}/{urllib.parse.quote(category)}/README.md")
-        return parse_markdown(text, f"kawsarlog/Ultimate-API-List:{category}", category)
+        return parse_markdown(fetch_url(f"{ULTIMATE_BASE}/{urllib.parse.quote(category)}/README.md"), f"kawsarlog/Ultimate-API-List:{category}", category)
     except Exception:
         return []
 
@@ -129,8 +128,8 @@ def load_sources():
     except Exception:
         return []
 
-def build_items():
-    if cache["items"] is not None and time.time() - cache["loaded"] < CACHE_TTL:
+def build_items(force=False):
+    if not force and cache["items"] is not None and time.time() - cache["loaded"] < CACHE_TTL:
         return cache["items"]
     items = []
     try:
@@ -165,19 +164,34 @@ def virtual_categories():
 def categories_for(items):
     return sorted({normalize(x.get("category")) for x in items if normalize(x.get("category"))})
 
+def providers_for(items):
+    values = set()
+    for item in items:
+        source = item.get("source", [])
+        values.update(source if isinstance(source, list) else [source])
+    return sorted(x for x in values if x)
+
+def tokens(value):
+    return set(re.findall(r"[a-z0-9]+", str(value or "").lower()))
+
 def score(item, query):
-    parts = [x for x in query.lower().split() if x]
-    name = str(item.get("name", "")).lower()
-    category = str(item.get("category", "")).lower()
-    text = " ".join([name, category, str(item.get("description", "")).lower()])
+    parts = tokens(query)
+    if not parts:
+        return 1
+    name = tokens(item.get("name"))
+    category = tokens(item.get("category"))
+    description = tokens(item.get("description"))
+    source = tokens(item.get("source"))
     value = 0
     for part in parts:
         if part in name:
-            value += 6
+            value += 10
         elif part in category:
-            value += 4
-        elif part in text:
-            value += 1
+            value += 7
+        elif part in source:
+            value += 5
+        elif part in description:
+            value += 2
         else:
             return 0
     return value
@@ -197,6 +211,51 @@ def filter_items(items, params):
     if source:
         values = [x for x in values if source in str(x.get("source", "")).lower()]
     return values
+
+def limit_value(params, key, default, maximum):
+    try:
+        return min(max(int(params.get(key, [str(default)])[0]), 1), maximum)
+    except Exception:
+        return default
+
+def index_page(items, params):
+    values = filter_items(items, params)
+    query = params.get("q", [""])[0]
+    if query:
+        values = [x for x in values if score(x, query)]
+        values.sort(key=lambda x: (-score(x, query), x.get("name", "").lower()))
+    else:
+        sort_key = params.get("sort", ["name"])[0]
+        if sort_key == "category":
+            values.sort(key=lambda x: (x.get("category", "").lower(), x.get("name", "").lower()))
+        elif sort_key == "source":
+            values.sort(key=lambda x: (str(x.get("source", "")).lower(), x.get("name", "").lower()))
+        else:
+            values.sort(key=lambda x: x.get("name", "").lower())
+    size = limit_value(params, "size", 50, 500)
+    page = limit_value(params, "page", 1, 1000000)
+    start = (page - 1) * size
+    return values[start:start + size], len(values), page, size
+
+def exact_or_fuzzy(items, query):
+    wanted = normalize(query).lower()
+    exact = [x for x in items if normalize(x.get("name")).lower() == wanted or canonical_url(x.get("api_url")) == canonical_url(wanted)]
+    if exact:
+        return exact[0]
+    ranked = sorted(((score(x, wanted), x) for x in items), key=lambda x: (-x[0], x[1].get("name", "").lower()))
+    return ranked[0][1] if ranked and ranked[0][0] else None
+
+def related(items, target, limit):
+    base = tokens(target.get("name")) | tokens(target.get("category")) | tokens(target.get("description"))
+    ranked = []
+    for item in items:
+        if item is target:
+            continue
+        overlap = len(base & (tokens(item.get("name")) | tokens(item.get("category")) | tokens(item.get("description"))))
+        if overlap:
+            ranked.append((overlap, item))
+    ranked.sort(key=lambda x: (-x[0], x[1].get("name", "").lower()))
+    return [x[1] for x in ranked[:limit]]
 
 class Handler(BaseHTTPRequestHandler):
     def send_json(self, payload, status=200):
@@ -219,77 +278,98 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urllib.parse.urlparse(self.path)
         params = urllib.parse.parse_qs(parsed.query)
-        items = build_items()
         route = parsed.path.rstrip("/") or "/"
+        items = build_items()
 
         if route == "/":
-            return self.send_json({
-                "name": "free-api-index",
-                "version": "2.0",
-                "apis": len(items),
-                "routes": ["/health", "/stats", "/sources", "/categories", "/search", "/select", "/api/{name-or-url}", "/category/{name}", "/provider/{name}", "/random", "/auth/{type}", "/export"]
-            })
+            return self.send_json({"name": "free-api-index", "version": "3.0", "apis": len(items), "routes": ["/index", "/health", "/stats", "/sources", "/source/{name}", "/categories", "/category/{name}", "/providers", "/provider/{name}", "/tags", "/capabilities", "/search", "/select", "/recommend", "/related/{name}", "/resolve", "/auth/{type}", "/random", "/api/{name-or-url}", "/export", "/reload", "/developer"]})
 
         if route == "/health":
-            return self.send_json({"ok": True, "apis": len(items), "categories": len(categories_for(items)), "virtual_categories": len(virtual_categories())})
+            return self.send_json({"ok": True, "apis": len(items), "categories": len(categories_for(items)), "providers": len(providers_for(items)), "virtual_categories": len(virtual_categories()), "cache_age_seconds": round(time.time() - cache["loaded"], 2)})
 
         if route == "/stats":
-            return self.send_json({
-                "apis": len(items),
-                "categories": len(categories_for(items)),
-                "virtual_categories": len(virtual_categories()),
-                "sources": len({str(x.get("source")) for x in items}),
-                "cache_age_seconds": round(time.time() - cache["loaded"], 2)
-            })
+            counts = {}
+            for item in items:
+                category = item.get("category") or "Other"
+                counts[category] = counts.get(category, 0) + 1
+            return self.send_json({"apis": len(items), "categories": len(counts), "providers": len(providers_for(items)), "virtual_categories": len(virtual_categories()), "top_categories": sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:50], "cache_age_seconds": round(time.time() - cache["loaded"], 2)})
+
+        if route == "/index":
+            results, total, page, size = index_page(items, params)
+            return self.send_json({"page": page, "size": size, "total": total, "pages": (total + size - 1) // size, "results": results})
 
         if route == "/sources":
             return self.send_json({"count": len(load_sources()), "sources": load_sources()})
 
+        if route.startswith("/source/"):
+            wanted = urllib.parse.unquote(route[8:]).lower()
+            source = next((x for x in load_sources() if wanted in x.get("repo", "").lower()), None)
+            values = [x for x in items if wanted in str(x.get("source", "")).lower()]
+            return self.send_json({"source": source, "count": len(values), "results": values[:500]})
+
         if route == "/categories":
-            return self.send_json({"count": len(categories_for(items)), "categories": categories_for(items), "virtual_count": len(virtual_categories()), "virtual_categories": virtual_categories()})
-
-        if route == "/search":
-            query = params.get("q", [""])[0]
-            limit = min(max(int(params.get("limit", ["20"])[0]), 1), 200)
-            values = filter_items(items, params)
-            results = []
-            for item in values:
-                value = score(item, query) if query else 1
-                if value:
-                    results.append((value, item))
-            results.sort(key=lambda x: (-x[0], x[1].get("name", "")))
-            return self.send_json({"query": query, "count": len(results), "results": [x[1] for x in results[:limit]]})
-
-        if route == "/select":
-            query = params.get("task", params.get("q", [""]))[0]
-            limit = min(max(int(params.get("limit", ["10"])[0]), 1), 50)
-            values = filter_items(items, params)
-            results = []
-            for item in values:
-                value = score(item, query)
-                if value:
-                    results.append((value, item))
-            results.sort(key=lambda x: (-x[0], x[1].get("name", "")))
-            return self.send_json({"task": query, "count": len(results), "results": [x[1] for x in results[:limit]], "agent_note": "Treat metadata as discovery data. Verify provider documentation, credentials, rate limits and endpoint availability before execution."})
+            values = categories_for(items)
+            return self.send_json({"count": len(values), "categories": values, "virtual_count": len(virtual_categories()), "virtual_categories": virtual_categories()})
 
         if route.startswith("/category/"):
             wanted = urllib.parse.unquote(route[10:]).lower()
             values = [x for x in items if wanted in str(x.get("category", "")).lower()]
-            return self.send_json({"category": wanted, "count": len(values), "results": values[:200]})
+            values.sort(key=lambda x: x.get("name", "").lower())
+            return self.send_json({"category": wanted, "count": len(values), "results": values[:500]})
+
+        if route == "/providers":
+            values = providers_for(items)
+            return self.send_json({"count": len(values), "providers": values})
 
         if route.startswith("/provider/"):
             wanted = urllib.parse.unquote(route[10:]).lower()
             values = [x for x in items if wanted in str(x.get("name", "")).lower() or wanted in str(x.get("source", "")).lower()]
-            return self.send_json({"provider": wanted, "count": len(values), "results": values[:200]})
+            return self.send_json({"provider": wanted, "count": len(values), "results": values[:500]})
+
+        if route == "/tags":
+            values = sorted(set(DOMAINS + MODES + TARGETS + categories_for(items)))
+            return self.send_json({"count": len(values), "tags": values})
+
+        if route == "/capabilities":
+            query = params.get("q", [""])[0]
+            values = [f"{domain} {mode} for {target}" for domain in DOMAINS for mode in MODES for target in TARGETS]
+            if query:
+                values = [x for x in values if all(part in x.lower() for part in tokens(query))]
+            return self.send_json({"query": query, "count": len(values), "capabilities": values})
+
+        if route in {"/search", "/select", "/recommend"}:
+            query = params.get("task", params.get("q", [""]))[0]
+            limit = limit_value(params, "limit", 10 if route != "/search" else 20, 200)
+            values = filter_items(items, params)
+            ranked = sorted(((score(x, query), x) for x in values if score(x, query)), key=lambda x: (-x[0], x[1].get("name", "").lower()))
+            results = [x[1] for x in ranked[:limit]]
+            payload = {"query": query, "count": len(ranked), "results": results}
+            if route != "/search":
+                payload["agent_note"] = "Use results as discovery metadata. Verify provider documentation, credentials, rate limits, permissions and endpoint availability before execution."
+            if route == "/recommend":
+                payload["selection_basis"] = ["name match", "category match", "provider match", "description match"]
+            return self.send_json(payload)
+
+        if route.startswith("/related/"):
+            target = exact_or_fuzzy(items, urllib.parse.unquote(route[9:]))
+            if not target:
+                return self.send_json({"error": "API not found"}, 404)
+            return self.send_json({"api": target, "count": limit_value(params, "limit", 10, 100), "results": related(items, target, limit_value(params, "limit", 10, 100))})
+
+        if route == "/resolve":
+            query = params.get("q", [""])[0]
+            target = exact_or_fuzzy(items, query)
+            if not target:
+                return self.send_json({"query": query, "error": "API not found"}, 404)
+            return self.send_json({"query": query, "match": target})
 
         if route.startswith("/auth/"):
             wanted = urllib.parse.unquote(route[6:]).lower()
             values = [x for x in items if wanted in str(x.get("auth", "")).lower()]
-            return self.send_json({"auth": wanted, "count": len(values), "results": values[:200]})
+            return self.send_json({"auth": wanted, "count": len(values), "results": values[:500]})
 
         if route == "/random":
-            import random
-            limit = min(max(int(params.get("limit", ["1"])[0]), 1), 50)
+            limit = limit_value(params, "limit", 1, 50)
             return self.send_json({"count": limit, "results": random.sample(items, min(limit, len(items)))})
 
         if route == "/export":
@@ -306,14 +386,21 @@ class Handler(BaseHTTPRequestHandler):
                 return
             return self.send_json({"count": len(values), "apis": values})
 
+        if route == "/reload":
+            values = build_items(force=True)
+            return self.send_json({"ok": True, "apis": len(values), "cache_age_seconds": 0})
+
+        if route == "/developer":
+            return self.send_json({"name": "free-api-index developer interface", "base": f"http://localhost:{PORT}", "examples": {"search": "/search?q=weather", "task": "/select?task=free+weather+forecast", "index": "/index?page=1&size=50&sort=category", "filter": "/index?category=Security&auth=none", "resolve": "/resolve?q=GitHub", "related": "/related/GitHub", "export": "/export?category=Weather&format=ndjson", "reload": "/reload"}, "rules": ["API records are discovery metadata", "Credentials are never supplied by this service", "Verify upstream terms and limits", "Do not treat availability metadata as permanent"]})
+
         if route.startswith("/api/"):
-            wanted = urllib.parse.unquote(route[5:]).lower()
-            for item in items:
-                if canonical_url(item.get("api_url")) == canonical_url(wanted) or normalize(item.get("name")).lower() == wanted:
-                    return self.send_json(item)
+            wanted = urllib.parse.unquote(route[5:])
+            target = exact_or_fuzzy(items, wanted)
+            if target:
+                return self.send_json(target)
             return self.send_json({"error": "API not found"}, 404)
 
-        return self.send_json({"error": "Route not found", "routes": ["/health", "/stats", "/sources", "/categories", "/search", "/select", "/api/{name-or-url}", "/category/{name}", "/provider/{name}", "/random", "/auth/{type}", "/export"]}, 404)
+        return self.send_json({"error": "Route not found", "routes": ["/index", "/health", "/stats", "/sources", "/source/{name}", "/categories", "/category/{name}", "/providers", "/provider/{name}", "/tags", "/capabilities", "/search", "/select", "/recommend", "/related/{name}", "/resolve", "/auth/{type}", "/random", "/api/{name-or-url}", "/export", "/reload", "/developer"]}, 404)
 
     def log_message(self, format, *args):
         return
