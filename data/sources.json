@@ -1,0 +1,159 @@
+[
+  {
+    "repo": "public-apis/public-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "marcelscruz/public-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "free-public-apis/apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "public-api-lists/public-api-lists",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "gunjanjaswal/Awesome-Public-Free-Apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "Spinov001-art/free-apis-list",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "rohanbyale/Public_API_Collection",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "ngongcm/public-api-list",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "llf007/public-apis-cn",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "alexandresanlim/public-apis-no-auth-only",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "n0shake/Public-APIs",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "dspinellis/awesome-rest-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "jaegeral/security-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "venelinkochev/apifinder",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "tools-collection/apis-collection",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "whizkydee/Awesome-APIs",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "lavie/Awesome-APIs",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "Manavarya09/public-apis-live",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "hfcorriez/agent-public-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "tgeissel/keyless-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "apiverve/public-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "api-evangelist/public-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "davemachado/public-api",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "corgicode/public-example-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "Free-APIs/Free-APIs.github.io",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "BuiltByEcho/public-api-finder",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "ecnivslabs/no-auth-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "SiaLabs/Free-API-Server",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "aisenseapi/aisense-free-public-rest-apis",
+    "mode": "readme",
+    "license": "verify at source"
+  },
+  {
+    "repo": "kawsarlog/Ultimate-API-List",
+    "mode": "local-and-runtime",
+    "license": "not detected in source repository",
+    "note": "Used through the existing imported category data and runtime discovery; verify upstream terms before redistribution."
+  },
+  {
+    "repo": "jentic/jentic-public-apis",
+    "mode": "external-openapi",
+    "license": "CC0-1.0",
+    "note": "OpenAPI and Arazzo catalog for agent-oriented discovery; kept as an external source because its structured specs are substantially larger than the local metadata index."
+  }
+]
