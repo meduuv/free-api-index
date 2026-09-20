@@ -14,6 +14,8 @@ DATA_FILE = ROOT / "data" / "apis.json"
 SOURCE_FILE = ROOT / "data" / "sources.json"
 PORT = int(os.getenv("PORT", "8787"))
 CACHE_TTL = int(os.getenv("API_INDEX_CACHE_TTL", "21600"))
+MAX_RESULTS = int(os.getenv("API_INDEX_MAX_RESULTS", "500"))
+MAX_SCHEMA_OPERATIONS = int(os.getenv("API_INDEX_MAX_SCHEMA_OPERATIONS", "1000"))
 REMOTE_JSON = [
     ("public-api-lists/public-api-lists", "https://raw.githubusercontent.com/public-api-lists/public-api-lists/master/api/all.json"),
     ("Manavarya09/public-apis-live", "https://raw.githubusercontent.com/Manavarya09/public-apis-live/main/data/apis.json")
@@ -290,7 +292,21 @@ def limit_value(params, key, default, maximum):
     except Exception:
         return default
 
+def expand_query(query):
+    q = normalize(query).lower()
+    aliases = {
+        "weather": "forecast climate meteorological", "email": "mail smtp transactional messaging",
+        "image": "photo picture vision media", "payments": "payment billing checkout",
+        "currency": "forex exchange money rates", "maps": "geocoding geolocation directions places",
+        "auth": "authentication authorization oauth login", "security": "cybersecurity vulnerability threat scanning",
+        "translate": "translation language localization", "video": "media streaming",
+        "database": "db storage sql nosql", "automation": "workflow jobs triggers integration",
+        "ai": "artificial intelligence llm machine learning inference"
+    }
+    return " ".join([q] + [v for k, v in aliases.items() if k in q]).strip()
+
 def rank(values, query, limit):
+    query = expand_query(query)
     candidates = [(score(x, query), x) for x in values]
     candidates = [x for x in candidates if x[0] > 0]
     candidates.sort(key=lambda x: (-x[0], x[1].get("name","").lower()))
@@ -347,7 +363,7 @@ def summarize_spec(spec):
         "servers": spec.get("servers") or [],
         "security": spec.get("security") or [],
         "operation_count": len(operations),
-        "operations": operations[:1000]
+        "operations": operations[:MAX_SCHEMA_OPERATIONS]
     }
 
 class Handler(BaseHTTPRequestHandler):
@@ -404,7 +420,7 @@ class Handler(BaseHTTPRequestHandler):
 
         if route in {"/search","/select","/recommend"}:
             query = params.get("task",params.get("q",[""]))[0]
-            limit = limit_value(params,"limit",20 if route=="/search" else 10,200)
+            limit = limit_value(params,"limit",20 if route=="/search" else 10,MAX_RESULTS)
             result,total = rank(filter_items(values,params),query,limit)
             payload = {"query":query,"count":total,"results":result}
             if route != "/search":
@@ -532,6 +548,6 @@ class Handler(BaseHTTPRequestHandler):
         return
 
 if __name__ == "__main__":
-    server = ThreadingHTTPServer(("0.0.0.0",PORT),Handler)
+    server = ThreadingHTTPServer((os.getenv("HOST", "0.0.0.0"),PORT),Handler)
     print(f"free-api-index agent server listening on {PORT}")
     server.serve_forever()
