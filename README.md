@@ -10,6 +10,10 @@ The live federation layer in server.py adds the current public-api-lists JSON ca
 
 The Ultimate API List advertises 50,371 records across 17 categories. Its repository currently has no detected open-source license, so this project does not copy that dataset into the repository.
 
+## Imported Ultimate API data
+
+The repository includes 16,654 Ultimate API records after URL deduplication against the local catalog. They are stored by category under `data/ultimate/`.
+
 ## Agent server
 
 Run:
