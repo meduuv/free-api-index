@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "generated_at": "2026-09-20T04:47:22.689Z",
-  "count": 1826,
+  "version": "1.1.0",
+  "generated_at": "2026-09-20T04:49:32.357Z",
+  "count": 2047,
   "categories": [
     "Animals",
     "Anime",
@@ -54,9 +54,58 @@
     "Tracking",
     "Transportation",
     "URL Shorteners",
+    "Uncategorized",
     "Vehicle",
     "Video",
-    "Weather"
+    "Weather",
+    "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+    "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+    "云存储与文件共享",
+    "交通",
+    "国内物流",
+    "国际物流",
+    "图书",
+    "地理编码",
+    "天气",
+    "开发",
+    "持续集成",
+    "文档与生产力",
+    "新闻",
+    "活动",
+    "游戏与漫画",
+    "编程",
+    "视频",
+    "词典",
+    "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+    "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+    "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+    "🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)",
+    "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+    "👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)",
+    "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+    "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
+    "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+    "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+    "💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)",
+    "💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+    "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+    "📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+    "📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)",
+    "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+    "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+    "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+    "📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)",
+    "📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)",
+    "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+    "🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+    "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
+    "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+    "🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+    "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+    "😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)",
+    "🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)",
+    "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+    "🧩 Example"
   ],
   "sources": [
     {
@@ -78,9 +127,1379 @@
     {
       "repo": "rohanbyale/Public_API_Collection",
       "ref": "main"
+    },
+    {
+      "repo": "gunjanjaswal/Awesome-Public-Free-Apis",
+      "ref": "main"
+    },
+    {
+      "repo": "ngongcm/public-api-list",
+      "ref": "main"
+    },
+    {
+      "repo": "llf007/public-apis-cn",
+      "ref": "main"
+    },
+    {
+      "repo": "markodenic/public-apis",
+      "ref": "main"
+    },
+    {
+      "repo": "hitarthpathak/Free-API",
+      "ref": "main"
     }
   ],
   "apis": [
+    {
+      "name": "balldontlie",
+      "api_url": "https://www.balldontlie.io",
+      "description": "Balldontlie provides access to stats data from the NBA",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "CollegeFootballData.com",
+      "api_url": "https://collegefootballdata.com",
+      "description": "Unofficial detailed American college football statistics, records, and results API",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "GraphHopper",
+      "api_url": "https://docs.graphhopper.com/",
+      "description": "A-to-B routing with turn-by-turn instructions",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Live Tennis API",
+      "api_url": "https://docs.livetennisapi.com",
+      "description": "Live tennis scores, fixtures and player data for ATP, WTA, Challenger and ITF (free tier: 100 requests/day)",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "TransitLand",
+      "api_url": "https://www.transit.land/documentation/datastore/api-endpoints.html",
+      "description": "Transit Aggregation",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Transport for Auckland, New Zealand",
+      "api_url": "https://dev-portal.at.govt.nz/",
+      "description": "Auckland Transport",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Transport for Belgium",
+      "api_url": "https://docs.irail.be/",
+      "description": "The iRail API is a third-party API for Belgian public transport by train",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Transport for Grenoble, France",
+      "api_url": "https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html",
+      "description": "Grenoble public transport",
+      "auth": "none",
+      "https": "No",
+      "cors": "no",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Transport for United States",
+      "api_url": "https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf",
+      "description": "NextBus API",
+      "auth": "none",
+      "https": "No",
+      "cors": "unknown",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "transport.rest",
+      "api_url": "https://transport.rest",
+      "description": "Community maintained, developer-friendly public transport API",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "US Autocomplete",
+      "api_url": "https://www.smarty.com/docs/cloud/us-autocomplete-pro-api",
+      "description": "Enter address data quickly with real-time address suggestions",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "US Extract",
+      "api_url": "https://www.smarty.com/products/apis/us-extract-api",
+      "description": "Extract postal addresses from any text including emails",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "US Street Address",
+      "api_url": "https://www.smarty.com/docs/cloud/us-street-api",
+      "description": "Validate and append data for any US postal address",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Climatiq",
+      "api_url": "https://docs.climatiq.io",
+      "description": "Calculate the environmental footprint created by a broad range of emission-generating activities",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "GrünstromIndex",
+      "api_url": "https://gruenstromindex.de/",
+      "description": "Green Power Index for Germany (Grünstromindex/GSI)",
+      "auth": "none",
+      "https": "No",
+      "cors": "yes",
+      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "IQAir",
+      "api_url": "https://www.iqair.com/air-pollution-data-api",
+      "description": "Air quality and weather data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Website Carbon",
+      "api_url": "https://api.websitecarbon.com/",
+      "description": "API to estimate the carbon footprint of loading web pages",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Bob's Burgers",
+      "api_url": "https://bobs-burgers-api-ui.herokuapp.com",
+      "description": "Bob's Burgers API",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "JSON2Video",
+      "api_url": "https://json2video.com",
+      "description": "Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "no",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Motivational Quotes",
+      "api_url": "https://nodejs-quoteapp.herokuapp.com/",
+      "description": "Random Motivational Quotes",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Owen Wilson Wow",
+      "api_url": "https://owen-wilson-wow-api.herokuapp.com",
+      "description": "API for actor Owen Wilson's \"wow\" exclamations in movies",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Stromberg Quotes",
+      "api_url": "https://www.stromberg-api.de/",
+      "description": "Returns Stromberg quotes and more",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Trakt",
+      "api_url": "https://trakt.docs.apiary.io/",
+      "description": "Movie and TV Data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "TVDB",
+      "api_url": "https://thetvdb.com/api-information",
+      "description": "Television data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Web Series Quotes Generator",
+      "api_url": "https://github.com/yogeshwaran01/web-series-quotes",
+      "description": "API generates various Web Series Quote Images",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "GDBrowser",
+      "api_url": "https://gdbrowser.com/api",
+      "description": "Easy way to use the Geometry Dash Servers",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "GraphQL Pokemon",
+      "api_url": "https://github.com/favware/graphql-pokemon",
+      "description": "GraphQL powered Pokemon API. Supports generations 1 through 8",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "GZW Data",
+      "api_url": "https://gzw-data.vercel.app/docs/",
+      "description": "Free Gray Zone Warfare API for weapons, missions, loot, armor and game data",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "IGDB.com",
+      "api_url": "https://api-docs.igdb.com",
+      "description": "Video Game Database",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Minecraft Server Status",
+      "api_url": "https://api.mcsrvstat.us",
+      "description": "API to get Information about a Minecraft Server",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "no",
+      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "RPS 101",
+      "api_url": "https://rps101.pythonanywhere.com/api",
+      "description": "Rock, Paper, Scissors with 101 objects",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Warface (non-official)",
+      "api_url": "https://api.wfstats.cf",
+      "description": "Official API proxy with better data structure and more features",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "no",
+      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Lyrics.ovh",
+      "api_url": "https://lyricsovh.docs.apiary.io",
+      "description": "Simple API to retrieve the lyrics of a song",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Bank Negara Malaysia Open Data",
+      "api_url": "https://apikijangportal.bnm.gov.my/",
+      "description": "Malaysia Central Bank Open Data",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "BCLaws",
+      "api_url": "https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html",
+      "description": "Access to the laws of British Columbia",
+      "auth": "none",
+      "https": "No",
+      "cors": "unknown",
+      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "National Park Service, US",
+      "api_url": "https://www.nps.gov/subjects/developer/",
+      "description": "Data from the US National Park Service",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "PRC Exam Schedule",
+      "api_url": "https://api.whenisthenextboardexam.com/docs/",
+      "description": "Unofficial Philippine Professional Regulation Commission's examination schedule",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "USA.gov",
+      "api_url": "https://www.usa.gov/developer",
+      "description": "Authoritative information on U.S. programs, events, services and more",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Full Contact",
+      "api_url": "https://docs.fullcontact.com/",
+      "description": "Get Social Media profiles and contact Information",
+      "auth": "OAuth",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Hashnode",
+      "api_url": "https://hashnode.com",
+      "description": "A blogging platform built for developers",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Catboy",
+      "api_url": "https://catboys.com/api",
+      "description": "Neko images, funny GIFs & more",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "EmojiHub",
+      "api_url": "https://github.com/cheatsnake/emojihub",
+      "description": "Get emojis by categories and groups",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Ganjoor",
+      "api_url": "https://api.ganjoor.net",
+      "description": "Classic Persian poetry works including access to related manuscripts, recitations and music tracks",
+      "auth": "OAuth",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "HTTP Cat",
+      "api_url": "https://http.cat/",
+      "description": "Cat for every HTTP Status",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "HTTP Dog",
+      "api_url": "https://http.dog/",
+      "description": "Dogs for every HTTP response status code",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "NoPhishy",
+      "api_url": "https://rapidapi.com/Amiichu/api/exerra-phishing-check/",
+      "description": "Check links to see if they're known phishing attempts",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Waifu.im",
+      "api_url": "https://waifu.im/docs",
+      "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "xeno-canto",
+      "api_url": "https://xeno-canto.org/explore/api",
+      "description": "Bird recordings",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Zoo Animals",
+      "api_url": "https://zoo-animal-api.herokuapp.com/",
+      "description": "Facts and pictures of zoo animals",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "CMS.gov",
+      "api_url": "https://data.cms.gov/provider-data/",
+      "description": "Access to the data from the CMS - medicare.gov",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "FoodData Central",
+      "api_url": "https://fdc.nal.usda.gov/",
+      "description": "National Nutrient Database for Standard Reference",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Lexigram",
+      "api_url": "https://docs.lexigram.io/",
+      "description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "1inch",
+      "api_url": "https://1inch.io/api/",
+      "description": "API for querying decentralize exchange",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Bittrex",
+      "api_url": "https://bittrex.github.io/api/v3",
+      "description": "Next Generation Crypto Trading Platform",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Block",
+      "api_url": "https://block.io/docs/basic",
+      "description": "Bitcoin Payment, Wallet & Transaction Data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "CryptAPI",
+      "api_url": "https://docs.cryptapi.io/",
+      "description": "Cryptocurrency Payment Processor",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "CryptoMarket",
+      "api_url": "https://api.exchange.cryptomkt.com/",
+      "description": "Cryptocurrencies Trading platform",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Hirak Exchange Rates",
+      "api_url": "https://rates.hirak.site/",
+      "description": "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "icy.tools",
+      "api_url": "https://developers.icy.tools/",
+      "description": "GraphQL based NFT API",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "MercadoBitcoin",
+      "api_url": "https://www.mercadobitcoin.com.br/api-doc/",
+      "description": "Brazilian Cryptocurrency Information",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Poloniex",
+      "api_url": "https://docs.poloniex.com",
+      "description": "US based digital asset exchange",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Bank Data API",
+      "api_url": "https://apilayer.com/marketplace/bank_data-api",
+      "description": "Instant IBAN and SWIFT number validation across the globe",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Financial Modeling Prep",
+      "api_url": "https://site.financialmodelingprep.com/developer/docs",
+      "description": "Realtime and historical stock data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Plaid",
+      "api_url": "https://www.plaid.com/docs",
+      "description": "Connect with user's bank accounts and access transaction data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "",
+      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Portfolio Optimizer",
+      "api_url": "https://portfoliooptimizer.io/",
+      "description": "Portfolio analysis and optimization",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Tax Data API",
+      "api_url": "https://apilayer.com/marketplace/tax_data-api",
+      "description": "Instant VAT number and tax validation across the globe",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unkown",
+      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "VAT Validation",
+      "api_url": "https://www.abstractapi.com/vat-validation-rates-api",
+      "description": "Validate VAT numbers and calculate VAT rates",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Apache Superset",
+      "api_url": "https://superset.apache.org/docs/api",
+      "description": "API to manage your BI dashboards and data sources on Superset",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "markerapi",
+      "api_url": "https://markerapi.com",
+      "description": "Trademark Search",
+      "auth": "none",
+      "https": "No",
+      "cors": "unknown",
+      "category": "💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Jooble",
+      "api_url": "https://jooble.org/api/about",
+      "description": "Job search engine",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "WhatJobs",
+      "api_url": "https://www.whatjobs.com/affiliates",
+      "description": "Job search engine",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Filestack",
+      "api_url": "https://www.filestack.com",
+      "description": "Filestack File Uploader & File Upload API",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Imgbb",
+      "api_url": "https://api.imgbb.com/",
+      "description": "Simple and quick private image sharing",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "OneDrive",
+      "api_url": "https://developer.microsoft.com/onedrive",
+      "description": "File Sharing and Storage",
+      "auth": "OAuth",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Storj",
+      "api_url": "https://docs.storj.io/dcs/",
+      "description": "Decentralized Open-Source Cloud Storage",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Checkiday - National Holiday API",
+      "api_url": "https://apilayer.com/marketplace/checkiday-api",
+      "description": "Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Public Holidays",
+      "api_url": "https://www.abstractapi.com/holidays-api",
+      "description": "Data on national, regional, and religious holidays via API",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "ItsThisForThat",
+      "api_url": "https://itsthisforthat.com/api.php",
+      "description": "Generate Random startup ideas",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "no",
+      "category": "📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Black History Facts",
+      "api_url": "https://www.blackhistoryapi.io/docs",
+      "description": "Contribute or search one of the largest black history fact databases on the web",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Enigma Public",
+      "api_url": "https://developers.enigma.com/docs",
+      "description": "Broadest collection of public data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Lowy Asia Power Index",
+      "api_url": "https://github.com/0x0is1/lowy-index-api-docs",
+      "description": "Get measure resources and influence to rank the relative power of states in Asia",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Nasdaq Data Link",
+      "api_url": "https://docs.data.nasdaq.com/",
+      "description": "Stock market data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "OpenSanctions",
+      "api_url": "https://www.opensanctions.org/docs/api/",
+      "description": "Data on international sanctions, crime and politically exposed persons",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "PeakMetrics",
+      "api_url": "https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news",
+      "description": "News articles and public datasets",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Warnely",
+      "api_url": "https://warnely.com/developers",
+      "description": "Composite travel-safety scores for 180 countries combining FCDO, US State, GPI, WGI, and live incidents (CC BY 4.0, OpenAPI 3.1)",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "DropMail",
+      "api_url": "https://dropmail.me/api/#live-demo",
+      "description": "GraphQL API for creating and managing ephemeral e-mail inboxes",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Email Validation",
+      "api_url": "https://www.abstractapi.com/email-verification-validation-api",
+      "description": "Validate email addresses for deliverability and spam",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "mail.gw",
+      "api_url": "https://docs.mail.gw",
+      "description": "10 Minute Mail",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "MailCheck.ai",
+      "api_url": "https://www.mailcheck.ai/#documentation",
+      "description": "Prevent users to sign up with temporary email addresses",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Sendgrid",
+      "api_url": "https://docs.sendgrid.com/api-reference/",
+      "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "MarketAux",
+      "api_url": "https://www.marketaux.com/",
+      "description": "Live stock market news with tagged tickers + sentiment and stats JSON API",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "NewsData",
+      "api_url": "https://newsdata.io/docs",
+      "description": "News data API for live-breaking news and headlines from reputed  news sources",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "TheNews",
+      "api_url": "https://www.thenewsapi.com/",
+      "description": "Aggregated headlines, top story and live news JSON API",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Phone Validation",
+      "api_url": "https://www.abstractapi.com/phone-validation-api",
+      "description": "Validate phone numbers globally",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "DynaPictures",
+      "api_url": "https://dynapictures.com/docs/",
+      "description": "Generate Hundreds of Personalized Images in Minutes",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Image Upload",
+      "api_url": "https://apilayer.com/marketplace/image_upload-api",
+      "description": "Image Optimization",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Code Detection API",
+      "api_url": "https://codedetectionapi.runtime.dev",
+      "description": "Detect, label, format and enrich the code in your app or in your data pipeline",
+      "auth": "OAuth",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Hirak OCR",
+      "api_url": "https://ocr.hirak.site/",
+      "description": "Image to text -text recognition- from image more than 100 language, accurate, unlimited requests",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Hirak Translation",
+      "api_url": "https://translate.hirak.site/",
+      "description": "Translate between 21 of most used languages, accurate, unlimited requests",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Lecto Translation",
+      "api_url": "https://rapidapi.com/lecto-lecto-default/api/lecto-translation/",
+      "description": "Translation API with free tier and reasonable prices",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Warrant",
+      "api_url": "https://warrant.dev/",
+      "description": "APIs for authorization and access control",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Censys",
+      "api_url": "https://search.censys.io/api",
+      "description": "Search engine for Internet connected host and devices",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "no",
+      "category": "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Hashable",
+      "api_url": "https://hashable.space/pages/api/",
+      "description": "A REST API to access high level cryptographic functions and methods",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Threat Jammer",
+      "api_url": "https://threatjammer.com/docs/index",
+      "description": "Risk scoring service from curated threat intelligence data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "BGPT",
+      "api_url": "https://bgpt.pro",
+      "description": "Scientific paper search with structured full-text evidence (methods, limitations, COI, quality scores)",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Noctua",
+      "api_url": "https://api.noctuasky.com/api/v1/swaggerdoc/",
+      "description": "REST API used to access NoctuaSky features",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Ocean Facts",
+      "api_url": "https://oceanfacts.herokuapp.com/",
+      "description": "Facts pertaining to the physical science of Oceanography",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Remote Calc",
+      "api_url": "https://github.com/elizabethadegbaju/remotecalc",
+      "description": "Decodes base64 encoding and parses it to return a solution to the calculation in JSON",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Times Adder",
+      "api_url": "https://github.com/FranP-code/API-Times-Adder",
+      "description": "With this API you can add each of the times introduced in the array sended",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "no",
+      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Free Url Shortener",
+      "api_url": "https://ulvis.net/developer.html",
+      "description": "Free URL Shortener offers a powerful API to interact with other sites",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "UrlBae",
+      "api_url": "https://urlbae.com/developers",
+      "description": "Simple and efficient short link creation",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Apiip",
+      "api_url": "https://apiip.net/",
+      "description": "Get location information by IP address",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "GeographQL",
+      "api_url": "https://geographql.netlify.app",
+      "description": "A Country, State, and City GraphQL API",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "GeoJS",
+      "api_url": "https://www.geojs.io/",
+      "description": "IP geolocation with ChatOps integration",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "HelloSalut",
+      "api_url": "https://fourtonfish.com/project/hellosalut-api/",
+      "description": "Get hello translation following user language",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Hirak IP to Country",
+      "api_url": "https://iplocation.hirak.site/",
+      "description": "Ip to location with country code, currency code & currency name, fast response, unlimited requests",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "IP Geolocation",
+      "api_url": "https://www.abstractapi.com/ip-geolocation-api",
+      "description": "Geolocate website visitors from their IPs",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "IPInfoDB",
+      "api_url": "https://www.ipinfodb.com/api",
+      "description": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Mapbox",
+      "api_url": "https://docs.mapbox.com/",
+      "description": "Create/customize beautiful digital maps",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "One Map, Singapore",
+      "api_url": "https://www.onemap.gov.sg/docs/",
+      "description": "Singapore Land Authority REST API services for Singapore addresses",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Queimadas INPE",
+      "api_url": "https://queimadas.dgi.inpe.br/queimadas/dados-abertos/",
+      "description": "Access to heat focus data (probable wildfire)",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "SpotSense",
+      "api_url": "https://spotsense.io/",
+      "description": "Add location based interactions to your mobile app",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "US ZipCode",
+      "api_url": "https://www.smarty.com/docs/cloud/us-zipcode-api",
+      "description": "Validate and append data for any US ZipCode",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "What3Words",
+      "api_url": "https://what3words.com",
+      "description": "Three words as rememberable and unique coordinates worldwide",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Corporate Buzz Words",
+      "api_url": "https://github.com/sameerkumar18/corporate-bs-generator-api",
+      "description": "REST API for Corporate Buzz Words",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Dialogflow",
+      "api_url": "https://cloud.google.com/dialogflow/docs/",
+      "description": "Natural Language Processing",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Excuser",
+      "api_url": "https://excuser.herokuapp.com/",
+      "description": "Get random excuses for various situations",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Fun Fact",
+      "api_url": "https://api.aakhilv.me",
+      "description": "A simple HTTPS api that can randomly select and return a fact from the FFA database",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Hirak FaceAPI",
+      "api_url": "https://faceapi.hirak.site/",
+      "description": "Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "MessengerX.io",
+      "api_url": "https://messengerx.rtfd.io",
+      "description": "A FREE API for developers to build and monetize personalized ML based chat apps",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Techy",
+      "api_url": "https://techy-api.vercel.app/",
+      "description": "JSON and Plaintext API for tech-savvy sounding phrases",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "Watchdata",
+      "api_url": "https://docs.watchdata.io",
+      "description": "Provide simple and reliable API access to Ethereum blockchain",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "ExampleAPI",
+      "api_url": "https://example.com/api-docs",
+      "description": "Provides example data for testing",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "🧩 Example",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "kimiquotes",
+      "api_url": "https://kimiquotes.herokuapp.com/doc",
+      "description": "Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen",
+      "auth": "none",
+      "https": "Yes",
+      "cors": "yes",
+      "category": "😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
+    {
+      "name": "eBay",
+      "api_url": "https://developer.ebay.com/",
+      "description": "Sell and Buy on eBay",
+      "auth": "OAuth",
+      "https": "Yes",
+      "cors": "unknown",
+      "category": "🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)",
+      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+    },
     {
       "name": "AdoptAPet",
       "api_url": "https://www.adoptapet.com/public/apis/pet_list.html",
@@ -17092,6 +18511,316 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
+      "name": "Aliexpress",
+      "api_url": "https://docs.steadyapi.com/#aliexpress",
+      "description": "Scrape product listings and pricing data from Aliexpress",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Amazon",
+      "api_url": "https://steadyapi.com/pages/real-time-amazon-data-api",
+      "description": "Retrieve structured Amazon product details",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "API-Football",
+      "api_url": "https://www.api-football.com/",
+      "description": "Live football data & stats",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Freemium",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "AutoHub API",
+      "api_url": "https://steadyapi.com/pages/autohub-car-api",
+      "description": "Access vehicle listings, specifications, pricing data,  and depreciation",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Baseball (MLB)",
+      "api_url": "https://docs.steadyapi.com/#baseball-mlb",
+      "description": "MLB stats, schedules, and player data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Betfair API",
+      "api_url": "https://docs.developer.betfair.com/",
+      "description": "Betting exchange data & automation",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Paid",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Booking.com API",
+      "api_url": "https://steadyapi.com/pages/bookingcom-api",
+      "description": "Access hotels, flights, rental cars, and destination data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Climacell",
+      "api_url": "https://developer.tomorrow.io/",
+      "description": "Real-time weather insights",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Paid",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Crypto",
+      "api_url": "https://docs.steadyapi.com/#crypto",
+      "description": "Cryptocurrency price, market cap, and exchange data",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "CurrentsAPI",
+      "api_url": "https://currentsapi.services/",
+      "description": "Trending news & events",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Freemium",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Finnhub",
+      "api_url": "https://finnhub.io/",
+      "description": "Real-time financial data",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Freemium",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Hockey (NHL)",
+      "api_url": "https://docs.steadyapi.com/#hockey-nhl",
+      "description": "NHL teams, players, and live scores",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Hugging Face Inference API",
+      "api_url": "https://huggingface.co/inference-api",
+      "description": "Run transformers & LLMs in the cloud",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Freemium",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Instagram Social",
+      "api_url": "https://steadyapi.com/pages/instagram-social-api",
+      "description": "Scrape public Instagram data, posts, and user profiles",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Mboum Finance",
+      "api_url": "https://mboum.com/api",
+      "description": "Stock, options, and market fundamentals",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Freemium",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Mediastack",
+      "api_url": "https://mediastack.com/",
+      "description": "Real-time news data feed",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Freemium",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "NewsAPI",
+      "api_url": "https://newsapi.org/",
+      "description": "Global news and headlines",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Freemium",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "OpenAI",
+      "api_url": "https://platform.openai.com/",
+      "description": "Text, image, and chat AI models",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Paid",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Postman Public APIs",
+      "api_url": "https://www.postman.com/explore",
+      "description": "Shared API collections for developers",
+      "auth": "None",
+      "https": "✅",
+      "cors": "Free",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "RapidAPI",
+      "api_url": "https://rapidapi.com/",
+      "description": "API marketplace & hub",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Free",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Real Estate",
+      "api_url": "https://docs.steadyapi.com/#real-estate",
+      "description": "Access property listings, valuation, and housing data from Realtor",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Reddit Social",
+      "api_url": "https://steadyapi.com/pages/reddit-api",
+      "description": "Track trending Reddit posts and sentiment",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Replicate",
+      "api_url": "https://replicate.com/",
+      "description": "Cloud-based ML model execution",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Paid",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "ScrapeFlow API",
+      "api_url": "https://steadyapi.com/pages/scrapeflow-api",
+      "description": "Powerful web scraping API that unblocks any website.",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "SportsData.io",
+      "api_url": "https://sportsdata.io/",
+      "description": "Major sports stats and odds",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Paid",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Stocks & Options",
+      "api_url": "https://steadyapi.com/pages/stock-and-options-data-api",
+      "description": "Access stock, ETF, and options data with real-time updates",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "TheOddsAPI",
+      "api_url": "https://the-odds-api.com/",
+      "description": "Live odds from 30+ bookmakers",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Paid",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "TheSportsDB",
+      "api_url": "https://www.thesportsdb.com/",
+      "description": "Community-driven sports database",
+      "auth": "apiKey",
+      "https": "✅",
+      "cors": "Free",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Twitter Social",
+      "api_url": "https://steadyapi.com/pages/twitter-social-api",
+      "description": "Access trending topics, tweets, and user insights",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "World Cup 2026 Tour",
+      "api_url": "https://ay-worldcup2026.zeabur.app/developers",
+      "description": "World Cup 2026 fixtures, local-time conversion, and calendar links",
+      "auth": "No",
+      "https": "✅",
+      "cors": "Free",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
+      "name": "Yahoo Finance",
+      "api_url": "https://finance.yahoo.com/",
+      "description": "Global financial market data",
+      "auth": "None",
+      "https": "✅",
+      "cors": "Free",
+      "category": "Uncategorized",
+      "source": "ngongcm/public-api-list"
+    },
+    {
       "name": "1pt",
       "api_url": "https://github.com/1pt-co/api/blob/main/README.md",
       "description": "A simple URL shortener",
@@ -18340,6 +20069,556 @@
       "cors": "No",
       "category": "Weather",
       "source": "free-public-apis/apis"
+    },
+    {
+      "name": "BrewPage",
+      "api_url": "https://kochetkov-ma.github.io/brewpage-openapi/",
+      "description": "🆓 免费托管 HTML/Markdown/KV/JSON/文件，无需注册，附带短链接",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "云存储与文件共享",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Transport for Finland",
+      "api_url": "https://digitransit.fi/en/developers/ ",
+      "description": "芬兰交通API",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "交通",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "51Tracking",
+      "api_url": "https://www.51tracking.com/",
+      "description": "提供全球快递物流查询服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "中通快递 (ZTO Express)",
+      "api_url": "http://open.zto.com",
+      "description": "中通快递服务和物流解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "京东物流 (JD Logistics)",
+      "api_url": "https://open.jdl.com",
+      "description": "京东物流服务和解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "圆通速递 (YTO Express)",
+      "api_url": "http://open.yto.net.cn",
+      "description": "圆通快递服务和物流解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "德邦物流 (Deppon Logistics)",
+      "api_url": "https://dpopen.deppon.com",
+      "description": "德邦物流服务和解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "快递100",
+      "api_url": "https://api.kuaidi100.com/home",
+      "description": "提供多家快递公司的物流信息查询服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "快递鸟",
+      "api_url": "https://www.kdniao.com/",
+      "description": "提供多家物流公司的实时物流信息查询",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "极兔速递",
+      "api_url": "https://open.jtexpress.com.cn",
+      "description": "极兔包裹追踪、运费计算等服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "申通快递 (STO Express)",
+      "api_url": "http://open.sto.cn",
+      "description": "申通快递服务和物流解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "百世快递 (Best Express)",
+      "api_url": "https://open.800best.com/",
+      "description": "百世快递服务和物流解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "菜鸟",
+      "api_url": "https://open.cainiao.com/",
+      "description": "支持多种物流服务和跨境物流解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "邮政速递物流 (EMS)",
+      "api_url": "https://api.ems.com.cn",
+      "description": "邮政速递服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "韵达快递 (Yunda Express)",
+      "api_url": "http://open.yundaex.com",
+      "description": "韵达快递服务和物流解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "顺丰速运 (SF Express)",
+      "api_url": "https://open.sf-express.com",
+      "description": "顺丰快递服务和物流解决方案",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国内物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "AfterShip",
+      "api_url": "https://www.aftership.com/docs",
+      "description": "支持超过200家物流公司的物流跟踪和通知",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Aramex",
+      "api_url": "https://www.aramex.com/us/en/developers",
+      "description": "Aramex快递提供的运费计算、包裹追踪等服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "AusPost",
+      "api_url": "https://developers.auspost.com.au/",
+      "description": "澳大利亚邮政的API服务，提供追踪等",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Canada Post",
+      "api_url": "https://www.canadapost-postescanada.ca/info/mc/business/productsservices/developers/tour/howitworks.jsf",
+      "description": "加拿大邮政的API服务，包括追踪和计费",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "DHL",
+      "api_url": "https://developer.dhl.com/",
+      "description": "DHL的API服务，包括追踪和计费",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "FedEx",
+      "api_url": "https://www.fedex.com/en-us/developer/web-services.html",
+      "description": "提供物流解决方案和包裹追踪服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "New Zealand Post",
+      "api_url": "https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre",
+      "description": "新西兰邮政的API服务，提供追踪等",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Royal Mail",
+      "api_url": "https://www.royalmail.com/business/tools-services/apis",
+      "description": "英国皇家邮政的包裹追踪等服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Ship24",
+      "api_url": "https://www.ship24.com/zh/couriers",
+      "description": "提供多家物流公司的全球包裹追踪服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "UPS",
+      "api_url": "https://www.ups.com/cn/zh/business-solutions/expand-your-online-business/upgrade-digital-technology/developer-resource-center.page",
+      "description": "UPS快递的提供包裹追踪、运费计算等服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "USPS",
+      "api_url": "https://www.usps.com/business/web-tools-apis/",
+      "description": "美国邮政服务API，提供多种物流服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "国际物流",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Wizard World",
+      "api_url": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+      "description": "获取哈利·波特宇宙的信息",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "图书",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "PostalCodes",
+      "api_url": "https://postalcodes.info/api",
+      "description": "全球邮政编码查询、国家数据导出和地址验证数据",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "category": "地理编码",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "7Timer!",
+      "api_url": "http://www.7timer.info/doc.php?lang=zh-CN",
+      "description": "国内除了查询慢点，好处是不需要APIKey！",
+      "auth": "否",
+      "https": "否",
+      "cors": "未知",
+      "category": "天气",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Met Office DataPoint",
+      "api_url": "https://www.metoffice.gov.uk/services/data/datapoint/",
+      "description": "英国的天气数据",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "天气",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Meteosource",
+      "api_url": "https://www.meteosource.com/",
+      "description": "基于机器学习和历史数据的全球天气预报",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "天气",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "和风天气API",
+      "api_url": "https://www.qweather.com/",
+      "description": "提供实时、三日、七日天气预报",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "天气",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "墨迹天气API",
+      "api_url": "https://www.mojicb.com/support",
+      "description": "提供分钟级、公里级天气预报",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "天气",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "心知天气API",
+      "api_url": "https://www.seniverse.com/",
+      "description": "提供实况天气数据和未来三天天气预报",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "天气",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "高德天气API",
+      "api_url": "https://lbs.amap.com/api/webservice/guide/api/weatherinfo",
+      "description": "实时和未来数天的天气预报服务",
+      "auth": "apiKey",
+      "https": "是",
+      "cors": "未知",
+      "category": "天气",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "OpenAPIHub",
+      "api_url": "https://hub.openapihub.com/",
+      "description": "一体化API平台",
+      "auth": "X-Mashape-Key",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "oyyi",
+      "api_url": "https://oyyi.xyz/docs/1.0",
+      "description": "用于假数据、图像/视频转换、优化、PDF优化和缩略图生成的API",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Postman",
+      "api_url": "https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a",
+      "description": "测试API的工具",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "ProxyKingdom",
+      "api_url": "https://proxykingdom.com",
+      "description": "轮换代理API，每次请求生成一个可用的代理",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "QR code",
+      "api_url": "https://www.qrtag.net/api/",
+      "description": "创建一个易于阅读的QR码和URL缩短器",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "ReqRes",
+      "api_url": "https://reqres.in/ ",
+      "description": "托管的REST API，准备响应您的AJAX请求",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "ScrapeNinja",
+      "api_url": "https://scrapeninja.net",
+      "description": "带有Chrome指纹和住宅代理的抓取API",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Screenshot",
+      "api_url": "https://www.abstractapi.com/website-screenshot-api",
+      "description": "以编程方式对任何网站进行截图",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Sheetsu",
+      "api_url": "https://sheetsu.com/",
+      "description": "简单的谷歌表格集成",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "开发",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Codeship",
+      "api_url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
+      "description": "Codeship是云中的持续集成平台",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "持续集成",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Clockify",
+      "api_url": "https://clockify.me/developers-api ",
+      "description": "Clockify的基于REST的API可用于向其推送/拉取数据并与其他系统集成",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "文档与生产力",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Smart Image Enhancement API",
+      "api_url": "https://apilayer.com/marketplace/image_enhancement-api",
+      "description": "通过多种超分辨率算法为图像添加细节来执行图像放大",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "文档与生产力",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "APITube",
+      "api_url": "https://apitube.io/",
+      "description": "多语言实时新闻搜索，含情感分析和实体提取",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "新闻",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Eventbrite",
+      "api_url": "https://www.eventbrite.com/platform/api/",
+      "description": "查找活动",
+      "auth": "OAuth",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "活动",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "FIFA Ultimate Team",
+      "api_url": "https://www.easports.com/fia/ultimate-team/api/fut/item",
+      "description": "FIFA终极球队物品API",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "游戏与漫画",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "KONTESTS",
+      "api_url": "https://kontests.net/api",
+      "description": "用于即将到来和正在进行的竞争性编程竞赛",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "编程",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Mintlify",
+      "api_url": "https://docs.mintlify.com",
+      "description": "用于以编程方式生成代码文档",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "编程",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Harry Potter Characters",
+      "api_url": "https://hp-api.herokuapp.com/",
+      "description": "哈利波特角色数据，包含图像",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "category": "视频",
+      "source": "llf007/public-apis-cn"
+    },
+    {
+      "name": "Wiktionary",
+      "api_url": "https://en.wiktionary.org/w/api.php",
+      "description": "协作词典数据",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "category": "词典",
+      "source": "llf007/public-apis-cn"
     }
   ]
 }
