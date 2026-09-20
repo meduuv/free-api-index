@@ -1,0 +1,37 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Free API Index",
+    "version": "3.0.0",
+    "description": "Discovery and indexing service for public API metadata."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8787"
+    }
+  ],
+  "paths": {
+    "/index": {"get": {"summary": "Paginated API index"}},
+    "/search": {"get": {"summary": "Keyword API search"}},
+    "/select": {"get": {"summary": "Select APIs for a task"}},
+    "/recommend": {"get": {"summary": "Rank APIs for a task"}},
+    "/resolve": {"get": {"summary": "Resolve an API name or URL"}},
+    "/related/{name}": {"get": {"summary": "Find related APIs", "parameters": [{"name": "name", "in": "path", "required": true, "schema": {"type": "string"}}]}},
+    "/api/{name-or-url}": {"get": {"summary": "Lookup an API", "parameters": [{"name": "name-or-url", "in": "path", "required": true, "schema": {"type": "string"}}]}},
+    "/category/{name}": {"get": {"summary": "List APIs in a category", "parameters": [{"name": "name", "in": "path", "required": true, "schema": {"type": "string"}}]}},
+    "/provider/{name}": {"get": {"summary": "List APIs by provider or source", "parameters": [{"name": "name", "in": "path", "required": true, "schema": {"type": "string"}}]}},
+    "/source/{name}": {"get": {"summary": "Inspect a registered source", "parameters": [{"name": "name", "in": "path", "required": true, "schema": {"type": "string"}}]}},
+    "/categories": {"get": {"summary": "List categories"}},
+    "/providers": {"get": {"summary": "List providers and sources"}},
+    "/tags": {"get": {"summary": "List routing tags"}},
+    "/capabilities": {"get": {"summary": "List generated capabilities"}},
+    "/auth/{type}": {"get": {"summary": "Filter by authentication", "parameters": [{"name": "type", "in": "path", "required": true, "schema": {"type": "string"}}]}},
+    "/random": {"get": {"summary": "Return random API records"}},
+    "/export": {"get": {"summary": "Export filtered API records"}},
+    "/health": {"get": {"summary": "Health check"}},
+    "/stats": {"get": {"summary": "Catalog statistics"}},
+    "/sources": {"get": {"summary": "Registered source metadata"}},
+    "/reload": {"get": {"summary": "Refresh the runtime catalog"}},
+    "/developer": {"get": {"summary": "Developer integration examples"}}
+  }
+}
