@@ -4,6 +4,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -73,16 +74,21 @@ def parse_markdown(text, source, category):
             rows.append(normalize_item({"name": cells[0], "api_url": urls[0], "description": cells[1], "category": category}, source))
     return [x for x in rows if x]
 
+def fetch_ultimate_one(category):
+    try:
+        request = urllib.request.Request(f"{ULTIMATE_BASE}/{urllib.parse.quote(category)}/README.md", headers={"User-Agent": "free-api-index-agent/1.0"})
+        with urllib.request.urlopen(request, timeout=30) as response:
+            text = response.read().decode("utf-8", "replace")
+        return parse_markdown(text, f"kawsarlog/Ultimate-API-List:{category}", category)
+    except Exception:
+        return []
+
 def fetch_ultimate():
     items = []
-    for category in ULTIMATE_CATEGORIES:
-        try:
-            request = urllib.request.Request(f"{ULTIMATE_BASE}/{urllib.parse.quote(category)}/README.md", headers={"User-Agent": "free-api-index-agent/1.0"})
-            with urllib.request.urlopen(request, timeout=30) as response:
-                text = response.read().decode("utf-8", "replace")
-            items.extend(parse_markdown(text, f"kawsarlog/Ultimate-API-List:{category}", category))
-        except Exception:
-            continue
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = [pool.submit(fetch_ultimate_one, category) for category in ULTIMATE_CATEGORIES]
+        for future in as_completed(futures):
+            items.extend(future.result())
     return items
 
 def dedupe(items):
@@ -106,11 +112,13 @@ def build_items():
         return cache["items"]
     with DATA_FILE.open("r", encoding="utf-8") as f:
         items = list(json.load(f).get("apis", []))
-    for source in REMOTE_SOURCES:
-        try:
-            items.extend(fetch_json(source["url"], source["name"]))
-        except Exception:
-            pass
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        futures = [pool.submit(fetch_json, source["url"], source["name"]) for source in REMOTE_SOURCES]
+        for future in as_completed(futures):
+            try:
+                items.extend(future.result())
+            except Exception:
+                pass
     items.extend(fetch_ultimate())
     cache["items"] = dedupe(items)
     cache["loaded"] = time.time()
