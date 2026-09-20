@@ -4,7 +4,7 @@ A source-aware API catalog built for developers and AI agents.
 
 ## Local index
 
-2047 deduplicated API records are stored in data/apis.json.
+2001 deduplicated API records are stored in data/apis.json.
 
 The live federation layer in server.py adds the current public-api-lists JSON catalog, the MIT licensed public-apis-live dataset, and the category catalogs from kawsarlog/Ultimate-API-List at runtime.
 
