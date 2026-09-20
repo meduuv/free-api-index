@@ -25,7 +25,7 @@ cache = {"items": None, "loaded": 0.0}
 def normalize(value):
     value = str(value or "").strip()
     value = re.sub(r"!\\[[^]]*\\]\\([^)]*\\)", "", value)
-    value = re.sub(r"[#*_~]", "", value)
+    value = re.sub(r"[*_~", "", value)
     value = value.replace("—", "-").replace("–", "-")
     return re.sub(r"\\s+", " ", value).strip(" -|")
 
