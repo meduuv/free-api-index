@@ -1,6 +1,8 @@
 # API Repository Sources
 
-Validated source and discovery repositories for the index.
+These are the discovery repositories registered for the unified index.
+
+## Registered repositories
 
 1. public-apis/public-apis
 2. marcelscruz/public-apis
@@ -31,11 +33,15 @@ Validated source and discovery repositories for the index.
 27. ecnivslabs/no-auth-apis
 28. SiaLabs/Free-API-Server
 29. aisenseapi/aisense-free-public-rest-apis
+30. kawsarlog/Ultimate-API-List
+31. jentic/jentic-public-apis
 
-Manavarya09/public-apis-live is MIT licensed and publishes a machine readable catalog refreshed daily.
+## Modes
 
-hfcorriez/agent-public-apis focuses on verified no-key APIs for agents.
+Most directory repositories use runtime README discovery. The Ultimate list uses the existing imported category data plus runtime discovery. Jentic is kept as an external OpenAPI and Arazzo source.
 
-tgeissel/keyless-apis focuses on live tested keyless APIs with CORS checks.
+The complete machine-readable registry is data/sources.json.
 
-kawsarlog/Ultimate-API-List advertises more than 50,000 records but its repository currently has no detected open-source license. Its records are used as a runtime discovery source and are not republished in the local dataset.
+## Attribution
+
+This project indexes metadata and does not claim ownership of third-party APIs, services or provider documentation.
