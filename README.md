@@ -119,9 +119,9 @@ Imported Ultimate records live in `data/ultimate/*.json`.
 
 The runtime server merges these datasets with registered live sources and deduplicates them before serving routes.
 
-## Markdown index
+## Complete Markdown index
 
-All Markdown files in this repository are listed in [docs/INDEX.md](docs/INDEX.md).
+Every Markdown file in the repository is indexed here. The same index is maintained in [docs/INDEX.md](docs/INDEX.md).
 
 | File | Purpose |
 |---|---|
