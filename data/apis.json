@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "generated_at": "2026-09-20T04:49:32.357Z",
-  "count": 2047,
+  "version": "1.2.0",
+  "generated_at": "2026-09-20T04:54:10.991Z",
+  "count": 2001,
   "categories": [
     "Animals",
     "Anime",
@@ -12,6 +12,7 @@
     "Books",
     "Business",
     "Calendar",
+    "Cloud Storage",
     "Cloud Storage & File Sharing",
     "Continuous Integration",
     "Cryptocurrency",
@@ -58,14 +59,12 @@
     "Vehicle",
     "Video",
     "Weather",
-    "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
-    "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+    "⚽ Sports & Fitness",
+    "✅ Data Validation",
     "云存储与文件共享",
-    "交通",
     "国内物流",
     "国际物流",
     "图书",
-    "地理编码",
     "天气",
     "开发",
     "持续集成",
@@ -74,38 +73,8 @@
     "活动",
     "游戏与漫画",
     "编程",
-    "视频",
     "词典",
-    "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
-    "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
-    "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
-    "🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)",
-    "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
-    "👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)",
-    "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
-    "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
-    "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
-    "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
-    "💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)",
-    "💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
-    "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
-    "📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
-    "📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)",
-    "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
-    "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
-    "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
-    "📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)",
-    "📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)",
-    "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
-    "🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
-    "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
-    "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
-    "🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
-    "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
-    "😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)",
-    "🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)",
-    "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
-    "🧩 Example"
+    "\udde9 Example"
   ],
   "sources": [
     {
@@ -157,7 +126,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -167,7 +136,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -177,7 +146,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -187,7 +156,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -197,7 +166,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -207,7 +176,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -217,7 +186,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -227,7 +196,7 @@
       "auth": "none",
       "https": "No",
       "cors": "no",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -237,7 +206,7 @@
       "auth": "none",
       "https": "No",
       "cors": "unknown",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -247,7 +216,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "⚽ Sports & Fitness",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -257,7 +226,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "category": "✅ Data Validation",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -267,7 +236,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "category": "✅ Data Validation",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -277,7 +246,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "category": "✅ Data Validation",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -287,7 +256,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Environment",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -297,7 +266,7 @@
       "auth": "none",
       "https": "No",
       "cors": "yes",
-      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Environment",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -307,7 +276,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Environment",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -317,7 +286,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Environment",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -327,7 +296,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -337,7 +306,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "no",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -347,7 +316,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -357,7 +326,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -367,7 +336,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -377,7 +346,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -387,7 +356,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -397,7 +366,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)",
+      "category": "Video",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -407,7 +376,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "category": "Games & Comics",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -417,7 +386,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "category": "Games & Comics",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -427,7 +396,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "category": "Games & Comics",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -437,7 +406,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "category": "Games & Comics",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -447,7 +416,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "no",
-      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "category": "Games & Comics",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -457,7 +426,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "category": "Games & Comics",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -467,7 +436,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "no",
-      "category": "🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)",
+      "category": "Games & Comics",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -477,7 +446,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)",
+      "category": "Music",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -487,7 +456,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Government",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -497,7 +466,7 @@
       "auth": "none",
       "https": "No",
       "cors": "unknown",
-      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Government",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -507,7 +476,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Government",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -517,7 +486,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Government",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -527,7 +496,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Government",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -537,7 +506,7 @@
       "auth": "OAuth",
       "https": "Yes",
       "cors": "unknown",
-      "category": "👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)",
+      "category": "Social",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -547,7 +516,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)",
+      "category": "Social",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -557,7 +526,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -567,7 +536,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -577,7 +546,7 @@
       "auth": "OAuth",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -587,7 +556,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -597,7 +566,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -607,7 +576,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -617,7 +586,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -627,7 +596,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -637,7 +606,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)",
+      "category": "Development",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -647,7 +616,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
+      "category": "Health",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -657,7 +626,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
+      "category": "Health",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -667,7 +636,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)",
+      "category": "Health",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -677,7 +646,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -687,7 +656,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -697,7 +666,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -707,7 +676,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -717,7 +686,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -727,7 +696,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -737,7 +706,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -747,7 +716,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -757,7 +726,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)",
+      "category": "Cryptocurrency",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -767,7 +736,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "category": "Finance",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -777,7 +746,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "category": "Finance",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -786,8 +755,8 @@
       "description": "Connect with user's bank accounts and access transaction data",
       "auth": "apiKey",
       "https": "Yes",
-      "cors": "",
-      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "cors": "unknown",
+      "category": "Finance",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -797,7 +766,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "category": "Finance",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -807,7 +776,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unkown",
-      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "category": "Finance",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -817,7 +786,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)",
+      "category": "Finance",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -827,7 +796,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)",
+      "category": "Business",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -837,7 +806,7 @@
       "auth": "none",
       "https": "No",
       "cors": "unknown",
-      "category": "💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)",
+      "category": "Business",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -847,7 +816,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Jobs",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -857,7 +826,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Jobs",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -867,7 +836,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "Cloud Storage",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -877,7 +846,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "Cloud Storage",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -887,7 +856,7 @@
       "auth": "OAuth",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "Cloud Storage",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -897,7 +866,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "Cloud Storage",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -907,18 +876,18 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "category": "Calendar",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
-      "name": "Public Holidays",
+      "name": "Abstract's Holiday API",
       "api_url": "https://www.abstractapi.com/holidays-api",
-      "description": "Data on national, regional, and religious holidays via API",
+      "description": "National, regional, and religious holidays for 120+ countries & 100+ years",
       "auth": "apiKey",
       "https": "Yes",
-      "cors": "yes",
-      "category": "📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
-      "source": "gunjanjaswal/Awesome-Public-Free-Apis"
+      "cors": "Yes",
+      "category": "Calendar",
+      "source": "public-api-lists/public-api-lists"
     },
     {
       "name": "ItsThisForThat",
@@ -927,7 +896,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "no",
-      "category": "📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)",
+      "category": "Test Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -937,7 +906,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "category": "Open Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -947,7 +916,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "category": "Open Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -957,7 +926,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "category": "Open Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -967,7 +936,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "category": "Open Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -977,7 +946,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "category": "Open Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -987,7 +956,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "category": "Open Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -997,7 +966,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)",
+      "category": "Open Data",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1007,7 +976,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Email",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1017,7 +986,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Email",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1027,7 +996,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Email",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1037,7 +1006,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Email",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1047,7 +1016,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)",
+      "category": "Email",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1057,17 +1026,17 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "News",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
       "name": "NewsData",
       "api_url": "https://newsdata.io/docs",
-      "description": "News data API for live-breaking news and headlines from reputed  news sources",
+      "description": "News data API for live-breaking news and headlines from reputed news sources",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "News",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1077,7 +1046,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "News",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1087,7 +1056,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)",
+      "category": "Phone",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1097,7 +1066,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)",
+      "category": "Photography",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1107,7 +1076,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)",
+      "category": "Photography",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1117,7 +1086,7 @@
       "auth": "OAuth",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "category": "Text Analysis",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1127,7 +1096,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "category": "Text Analysis",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1137,7 +1106,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "category": "Text Analysis",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1147,7 +1116,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)",
+      "category": "Text Analysis",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1157,7 +1126,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)",
+      "category": "Authentication",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1167,7 +1136,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "no",
-      "category": "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
+      "category": "Security",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1177,7 +1146,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
+      "category": "Security",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1187,7 +1156,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)",
+      "category": "Security",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1197,7 +1166,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "category": "Science & Math",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1207,7 +1176,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "category": "Science & Math",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1217,7 +1186,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "category": "Science & Math",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1227,7 +1196,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "category": "Science & Math",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1237,17 +1206,17 @@
       "auth": "none",
       "https": "Yes",
       "cors": "no",
-      "category": "🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)",
+      "category": "Science & Math",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
       "name": "Free Url Shortener",
       "api_url": "https://ulvis.net/developer.html",
-      "description": "Free URL Shortener offers a powerful API to interact with other sites",
+      "description": "Free URL Shortener offers a API to interact with other sites",
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "URL Shorteners",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1257,7 +1226,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)",
+      "category": "URL Shorteners",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1267,7 +1236,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1277,7 +1246,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1287,7 +1256,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1297,7 +1266,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1307,7 +1276,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1317,7 +1286,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1327,7 +1296,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1337,7 +1306,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1347,7 +1316,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1357,7 +1326,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1367,7 +1336,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1377,7 +1346,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1387,7 +1356,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)",
+      "category": "Geocoding",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1397,7 +1366,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1407,7 +1376,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1417,7 +1386,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1427,7 +1396,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1437,7 +1406,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1447,7 +1416,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "yes",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1457,7 +1426,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1467,7 +1436,7 @@
       "auth": "apiKey",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🤖 Machine Learning ![43 APIs](https://img.shields.io/badge/43-APIs-brightgreen)",
+      "category": "Machine Learning",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1477,7 +1446,7 @@
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
-      "category": "🧩 Example",
+      "category": "\udde9 Example",
       "source": "ngongcm/public-api-list"
     },
     {
@@ -1487,7 +1456,7 @@
       "auth": "none",
       "https": "Yes",
       "cors": "yes",
-      "category": "😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)",
+      "category": "Personality",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1497,7 +1466,7 @@
       "auth": "OAuth",
       "https": "Yes",
       "cors": "unknown",
-      "category": "🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)",
+      "category": "Shopping",
       "source": "gunjanjaswal/Awesome-Public-Free-Apis"
     },
     {
@@ -1629,26 +1598,6 @@
       "cors": "Unknown",
       "category": "Animals",
       "source": "free-public-apis/apis"
-    },
-    {
-      "name": "HTTP Dogs",
-      "api_url": "https://http.dog/",
-      "description": "Dogs for every HTTP status code",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Animals",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "HTTPCat",
-      "api_url": "https://http.cat/",
-      "description": "Cat for every HTTP Status",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Animals",
-      "source": "public-api-lists/public-api-lists"
     },
     {
       "name": "IUCN",
@@ -2001,16 +1950,6 @@
       "source": "free-public-apis/apis"
     },
     {
-      "name": "What Anime",
-      "api_url": "https://soruly.github.io/trace.moe-api/#/",
-      "description": "Scan anime image to get specific detail",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Anime",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "AbuseIPDB",
       "api_url": "https://docs.abuseipdb.com/",
       "description": "IP/domain/URL reputation",
@@ -2059,16 +1998,6 @@
       "cors": "Unknown",
       "category": "Anti-Malware",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "Google Safe Browsing",
-      "api_url": "https://developers.google.com/safe-browsing/",
-      "description": "Google Link/Domain Flagging",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Anti-Malware",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "MalDatabase",
@@ -3221,26 +3150,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "Abstract Public Holidays",
-      "api_url": "https://www.abstractapi.com/holidays-api",
-      "description": "Data on national, regional, and religious holidays via API",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Calendar",
-      "source": "free-public-apis/apis"
-    },
-    {
-      "name": "Abstract's Holiday API",
-      "api_url": "https://www.abstractapi.com/holidays-api",
-      "description": "National, regional, and religious holidays for 120+ countries & 100+ years",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Calendar",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "Byabbe",
       "api_url": "https://byabbe.se/on-this-day/#/default/get__month___day__events_json",
       "description": "Seach histories from wikipedia for a particular day",
@@ -3429,16 +3338,6 @@
       "cors": "Unknown",
       "category": "Calendar",
       "source": "free-public-apis/apis"
-    },
-    {
-      "name": "Non-Working Days ICS",
-      "api_url": "https://github.com/gadael/icsdb",
-      "description": "Database of ICS files for non working days",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Calendar",
-      "source": "public-api-lists/public-api-lists"
     },
     {
       "name": "OpenHolidays API",
@@ -4091,16 +3990,6 @@
       "source": "free-public-apis/apis"
     },
     {
-      "name": "CoinLayer",
-      "api_url": "https://coinlayer.com",
-      "description": "Real-time Crypto Currency Exchange Rates",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Cryptocurrency",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "Coinlib",
       "api_url": "https://coinlib.io/apidocs",
       "description": "Crypto Currency Prices",
@@ -4273,7 +4162,7 @@
     {
       "name": "DexPaprika",
       "api_url": "https://api.dexpaprika.com",
-      "description": "Free DEX and DeFi data — pools, tokens, OHLCV, and trades across all chains",
+      "description": "Free DEX and DeFi data - pools, tokens, OHLCV, and trades across all chains",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -4329,16 +4218,6 @@
       "cors": "Unknown",
       "category": "Cryptocurrency",
       "source": "free-public-apis/apis"
-    },
-    {
-      "name": "Gates.io",
-      "api_url": "https://www.gate.io/api2",
-      "description": "Blockchain Assets Exchange",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Cryptocurrency",
-      "source": "public-api-lists/public-api-lists"
     },
     {
       "name": "Gemini",
@@ -4871,16 +4750,6 @@
       "source": "free-public-apis/apis"
     },
     {
-      "name": "Abstract Email Validation",
-      "api_url": "https://www.abstractapi.com/email-verification-validation-api",
-      "description": "Validate email addresses for deliverability and spam",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Data Validation",
-      "source": "free-public-apis/apis"
-    },
-    {
       "name": "apilayer mailboxlayer",
       "api_url": "https://mailboxlayer.com",
       "description": "Email address validation",
@@ -4951,30 +4820,20 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "languagelayer",
-      "api_url": "https://languagelayer.com",
-      "description": "Language detection",
-      "auth": "No",
+      "name": "apilayer languagelayer",
+      "api_url": "https://languagelayer.com/",
+      "description": "Language Detection JSON API supporting 173 languages",
+      "auth": "OAuth",
       "https": "Yes",
       "cors": "Unknown",
-      "category": "Data Validation",
-      "source": "public-api-lists/public-api-lists"
+      "category": "Text Analysis",
+      "source": "free-public-apis/apis"
     },
     {
       "name": "Lob.com",
       "api_url": "https://lob.com/",
       "description": "US Address Verification",
       "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Data Validation",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "mailboxlayer",
-      "api_url": "https://mailboxlayer.com",
-      "description": "Email address validation",
-      "auth": "No",
       "https": "Yes",
       "cors": "Unknown",
       "category": "Data Validation",
@@ -5123,7 +4982,7 @@
     {
       "name": "VerifyEd",
       "api_url": "https://verifyed.org/docs",
-      "description": "Verify academic credentials — 912K+ schools, 2,592 diploma mills",
+      "description": "Verify academic credentials - 912K+ schools, 2,592 diploma mills",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Yes",
@@ -5461,14 +5320,14 @@
       "source": "free-public-apis/apis"
     },
     {
-      "name": "Contentful Images",
+      "name": "Image to Link",
       "api_url": "https://www.contentful.com/developers/docs/references/images-api/",
-      "description": "Used to retrieve and apply transformations to images",
-      "auth": "apiKey",
+      "description": "Generate link from image(Integration developer utility APIs)",
+      "auth": "No",
       "https": "Yes",
       "cors": "Yes",
       "category": "Development",
-      "source": "free-public-apis/apis"
+      "source": "public-api-lists/public-api-lists"
     },
     {
       "name": "CORS Proxy",
@@ -5599,16 +5458,6 @@
       "cors": "Yes",
       "category": "Development",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "ExtendsClass JSON Storage",
-      "api_url": "https://extendsclass.com/json-storage.html",
-      "description": "A simple JSON store API",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Development",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "Extracto",
@@ -5981,16 +5830,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "Image to Link",
-      "api_url": "https://www.contentful.com/developers/docs/references/images-api/",
-      "description": "Generate link from image(Integration developer utility APIs)",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Development",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "Image-Charts",
       "api_url": "https://www.image-charts.com/",
       "description": "Generate charts, QR codes and graph images",
@@ -6039,16 +5878,6 @@
       "cors": "Unknown",
       "category": "Development",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "IP2WHOIS Information Lookup",
-      "api_url": "https://www.ip2whois.com/",
-      "description": "WHOIS domain name lookup",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Development",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "ipapi.is",
@@ -6473,7 +6302,7 @@
     {
       "name": "Prismix",
       "api_url": "https://prismix.dev/api/v1/statuses",
-      "description": "Real-time uptime for 77 AI APIs (OpenAI, Anthropic, Cursor, Gemini) — free JSON endpoint, no auth required",
+      "description": "Real-time uptime for 77 AI APIs (OpenAI, Anthropic, Cursor, Gemini) - free JSON endpoint, no auth required",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -6531,16 +6360,6 @@
       "source": "free-public-apis/apis"
     },
     {
-      "name": "QR code",
-      "api_url": "http://goqr.me/api/",
-      "description": "Generate and decode / read QR code graphics",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Development",
-      "source": "free-public-apis/apis"
-    },
-    {
       "name": "QR Code",
       "api_url": "https://fungenerators.com/api/qrcode/",
       "description": "Create new QR Code or decode existing one",
@@ -6554,16 +6373,6 @@
       "name": "QR Code Crafter",
       "api_url": "https://qrcodecrafter.com/qr-code-api",
       "description": "Generate static QR code assets in SVG, PNG, JPG, WebP, PDF, or EPS",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Development",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "QR Tag",
-      "api_url": "http://qrtag.net/api/",
-      "description": "Create an easy to read QR code and URL shortener",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -7171,14 +6980,14 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "USGS",
+      "name": "USGS Earthquake Hazards Program",
       "api_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
-      "description": "Earthquake Data",
-      "auth": "apiKey",
+      "description": "Earthquakes data real-time",
+      "auth": "No",
       "https": "Yes",
       "cors": "Unknown",
-      "category": "Disasters",
-      "source": "public-api-lists/public-api-lists"
+      "category": "Science & Math",
+      "source": "free-public-apis/apis"
     },
     {
       "name": "Airtable",
@@ -7223,7 +7032,7 @@
     {
       "name": "ClickUp",
       "api_url": "https://clickup.com/api",
-      "description": "ClickUp is a robust, cloud-based project management tool for boosting productivity",
+      "description": "ClickUp is a , cloud-based project management tool for boosting productivity",
       "auth": "OAuth",
       "https": "Yes",
       "cors": "Unknown",
@@ -7471,16 +7280,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "pdflayer",
-      "api_url": "https://pdflayer.com",
-      "description": "HTML/URL to PDF",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Documents & Productivity",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "Pocket",
       "api_url": "https://getpocket.com/developer/",
       "description": "Bookmarking service",
@@ -7583,7 +7382,7 @@
     {
       "name": "College ROI",
       "api_url": "https://le-teen.com/api",
-      "description": "Lifetime ROI of US colleges and majors — free static JSON, CC BY 4.0",
+      "description": "Lifetime ROI of US colleges and majors - free static JSON, CC BY 4.0",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -7969,16 +7768,6 @@
       "cors": "Unknown",
       "category": "Events",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "Abstract VAT Validation",
-      "api_url": "https://www.abstractapi.com/vat-validation-rates-api",
-      "description": "Validate VAT numbers and calculate VAT rates",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Finance",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "Agent Toolbelt",
@@ -8533,7 +8322,7 @@
     {
       "name": "SmartAPI",
       "api_url": "https://smartapi.angelbroking.com/",
-      "description": "Gain access to set of  and create end-to-end broking services",
+      "description": "Gain access to set of and create end-to-end broking services",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Unknown",
@@ -9873,7 +9662,7 @@
     {
       "name": "REG-Vault",
       "api_url": "https://regvault.org/docs/api",
-      "description": "Retro-gaming metadata catalog — 91k games across 99 systems (box art, manuals, screenshots, gameplay previews). MCP endpoint at api.regvault.org/mcp",
+      "description": "Retro-gaming metadata catalog - 91k games across 99 systems (box art, manuals, screenshots, gameplay previews). MCP endpoint at api.regvault.org/mcp",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -10071,14 +9860,14 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "Tronald Dump",
-      "api_url": "https://www.tronalddump.io/",
-      "description": "The dumbest things Donald Trump has ever said",
+      "name": "tronalddump.io",
+      "api_url": "https://www.tronalddump.io",
+      "description": "Api & web archive for the things Donald Trump has said",
       "auth": "No",
       "https": "Yes",
       "cors": "Unknown",
-      "category": "Games & Comics",
-      "source": "free-public-apis/apis"
+      "category": "Personality",
+      "source": "public-api-lists/public-api-lists"
     },
     {
       "name": "Universalis",
@@ -10138,16 +9927,6 @@
       "https": "Yes",
       "cors": "Unknown",
       "category": "Games & Comics",
-      "source": "free-public-apis/apis"
-    },
-    {
-      "name": "Abstract IP Geolocation",
-      "api_url": "https://www.abstractapi.com/ip-geolocation-api",
-      "description": "Geolocate website visitors from their IPs",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Geocoding",
       "source": "free-public-apis/apis"
     },
     {
@@ -10435,16 +10214,6 @@
       "api_url": "https://geojs.io/",
       "description": "IP geolocation with ChatOps integration",
       "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Geocoding",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "Geokeo",
-      "api_url": "https://geokeo.com/",
-      "description": "Forward and Reverse Geocoding with 2500 free daily limit",
-      "auth": "apiKey",
       "https": "Yes",
       "cors": "Yes",
       "category": "Geocoding",
@@ -10761,16 +10530,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "ipstack",
-      "api_url": "https://ipstack.com/",
-      "description": "Locate and identify website visitors by IP address",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Geocoding",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "IsItWater",
       "api_url": "https://IsItWater.com/",
       "description": "A free API to determine if a lat/lon is on water or land",
@@ -11003,7 +10762,7 @@
     {
       "name": "Postali",
       "api_url": "https://postali.app/api",
-      "description": "Free postal codes API for Mexico, Colombia, and Spain — no API key, no signup, no monthly quota",
+      "description": "Free postal codes API for Mexico, Colombia, and Spain - no API key, no signup, no monthly quota",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -11029,16 +10788,6 @@
       "cors": "Yes",
       "category": "Geocoding",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "Queimadas INPE",
-      "api_url": "https://queimadas.dgi.inpe.br/queimadas/dados-abertos",
-      "description": "Access to heat focus data (probable wildfire)",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Geocoding",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "REST Countries",
@@ -11211,16 +10960,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "Zippopotam.us",
-      "api_url": "http://www.zippopotam.us",
-      "description": "Get information about place such as country, city, state, etc",
-      "auth": "No",
-      "https": "No",
-      "cors": "Unknown",
-      "category": "Geocoding",
-      "source": "free-public-apis/apis"
-    },
-    {
       "name": "Ziptastic",
       "api_url": "https://ziptasticapi.com/",
       "description": "Get the country, state, and city of any US zip-code",
@@ -11233,7 +10972,7 @@
     {
       "name": "Apiverket",
       "api_url": "https://apiverket.se/docs",
-      "description": "Unified API for Swedish public data — weather, transport, companies, and 30+ agencies",
+      "description": "Unified API for Swedish public data - weather, transport, companies, and 30+ agencies",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Yes",
@@ -11441,16 +11180,6 @@
       "source": "free-public-apis/apis"
     },
     {
-      "name": "City, Nantes Opendata",
-      "api_url": "https://data.nantesmetropole.fr/pages/home/",
-      "description": "Nantes(FR) City Open Data",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Government",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "City, New York City Opendata",
       "api_url": "https://opendata.cityofnewyork.us/",
       "description": "New York City (NYC)(US) Open Data",
@@ -11459,16 +11188,6 @@
       "cors": "Unknown",
       "category": "Government",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "City, New York Open Data",
-      "api_url": "https://opendata.cityofnewyork.us/",
-      "description": "New York (US) City Open Data",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Government",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "City, Prague Open Data",
@@ -11533,7 +11252,7 @@
     {
       "name": "Crime Brasil",
       "api_url": "https://crimebrasil.com.br",
-      "description": "Brazilian public-safety data — 3M geocoded crime incidents, PRF highway accidents, DATASUS violence (CC BY 4.0)",
+      "description": "Brazilian public-safety data - 3M geocoded crime incidents, PRF highway accidents, DATASUS violence (CC BY 4.0)",
       "auth": "No",
       "https": "Yes",
       "cors": "Unknown",
@@ -12373,7 +12092,7 @@
     {
       "name": "Covid Tracking Project",
       "api_url": "https://covidtracking.com/data/api/version-2",
-      "description": "Covid-19  data for the US",
+      "description": "Covid-19 data for the US",
       "auth": "No",
       "https": "Yes",
       "cors": "No",
@@ -12699,16 +12418,6 @@
       "cors": "Yes",
       "category": "Health",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "USDA Nutrients",
-      "api_url": "https://fdc.nal.usda.gov/",
-      "description": "National Nutrient Database for Standard Reference",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Health",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "Verified Supplement Data",
@@ -13531,16 +13240,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "Songkick",
-      "api_url": "https://www.songkick.com/developer/",
-      "description": "Music Events",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Music",
-      "source": "free-public-apis/apis"
-    },
-    {
       "name": "Songlink / Odesli",
       "api_url": "https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741",
       "description": "Get all the services on which a song is available",
@@ -13743,7 +13442,7 @@
     {
       "name": "NewsX",
       "api_url": "https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/",
-      "description": "Get or Search Latest Breaking News with ML Powered Summaries 🤖",
+      "description": "Get or Search Latest Breaking News with ML Powered Summaries",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Unknown",
@@ -13783,7 +13482,7 @@
     {
       "name": "Spaceflight News",
       "api_url": "https://spaceflightnewsapi.net",
-      "description": "Spaceflight related news 🚀",
+      "description": "Spaceflight related news \ude80",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -14671,16 +14370,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "tronalddump.io",
-      "api_url": "https://www.tronalddump.io",
-      "description": "Api & web archive for the things Donald Trump has said",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Personality",
-      "source": "public-api-lists/public-api-lists"
-    },
-    {
       "name": "Udemy(instructor)",
       "api_url": "https://www.udemy.com/developers/instructor/",
       "description": "API for instructors on Udemy",
@@ -14718,26 +14407,6 @@
       "https": "Yes",
       "cors": "Yes",
       "category": "Personality",
-      "source": "free-public-apis/apis"
-    },
-    {
-      "name": "Abstract Phone Validation",
-      "api_url": "https://www.abstractapi.com/phone-validation-api",
-      "description": "Validate phone numbers globally",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Phone",
-      "source": "free-public-apis/apis"
-    },
-    {
-      "name": "apilayer numverify",
-      "api_url": "https://numverify.com",
-      "description": "Phone number validation",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Phone",
       "source": "free-public-apis/apis"
     },
     {
@@ -14823,7 +14492,7 @@
     {
       "name": "Getty Images",
       "api_url": "http://developers.gettyimages.com/en/",
-      "description": "Build applications using the world's most powerful imagery",
+      "description": "Build applications using the world's most imagery",
       "auth": "OAuth",
       "https": "Yes",
       "cors": "Unknown",
@@ -15019,16 +14688,6 @@
       "cors": "Unknown",
       "category": "Photography",
       "source": "free-public-apis/apis"
-    },
-    {
-      "name": "ScreenShotLayer",
-      "api_url": "https://screenshotlayer.com",
-      "description": "URL 2 Image",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Photography",
-      "source": "public-api-lists/public-api-lists"
     },
     {
       "name": "shutterstock",
@@ -15449,16 +15108,6 @@
       "cors": "Yes",
       "category": "Science & Math",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "USGS Earthquake Hazards Program",
-      "api_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
-      "description": "Earthquakes data real-time",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Science & Math",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "USGS Water Services",
@@ -15903,7 +15552,7 @@
     {
       "name": "Spyse",
       "api_url": "https://spyse-dev.readme.io/reference/quick-start",
-      "description": "Access data on all Internet assets and build powerful attack surface management applications",
+      "description": "Access data on all Internet assets and build attack surface management applications",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Unknown",
@@ -15943,7 +15592,7 @@
     {
       "name": "Whoisfreaks",
       "api_url": "https://whoisfreaks.com/",
-      "description": "Domain and DNS related information that will equip organizaion with comprehensive threat intelligence and attack surface analysis capabilities for enhanced security",
+      "description": "Domain and DNS related information that will equip organizaion with threat intelligence and attack surface analysis capabilities for enhanced security",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "No",
@@ -17163,7 +16812,7 @@
     {
       "name": "Lorem API",
       "api_url": "https://lorem-api.com/",
-      "description": "The Ultimate Lorem Ipsum Generator",
+      "description": "Lorem Ipsum Generator",
       "auth": "No",
       "https": "No",
       "cors": "Unknown",
@@ -17411,16 +17060,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "apilayer languagelayer",
-      "api_url": "https://languagelayer.com/",
-      "description": "Language Detection JSON API supporting 173 languages",
-      "auth": "OAuth",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Text Analysis",
-      "source": "free-public-apis/apis"
-    },
-    {
       "name": "Aylien Text Analysis",
       "api_url": "https://docs.aylien.com/textapi/#getting-started",
       "description": "A collection of information retrieval and natural language APIs",
@@ -17499,16 +17138,6 @@
       "cors": "Unknown",
       "category": "Text Analysis",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "Semantria",
-      "api_url": "https://semantria.readme.io/docs",
-      "description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
-      "auth": "OAuth",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Text Analysis",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "Sentiment Analysis",
@@ -18391,16 +18020,6 @@
       "source": "public-api-lists/public-api-lists"
     },
     {
-      "name": "Transport for Switzerland",
-      "api_url": "https://transport.opendata.ch/",
-      "description": "Swiss public transport API",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Transportation",
-      "source": "free-public-apis/apis"
-    },
-    {
       "name": "Transport for The Netherlands",
       "api_url": "http://www.ns.nl/reisinformatie/ns-api",
       "description": "NS, only trains",
@@ -18409,16 +18028,6 @@
       "cors": "Unknown",
       "category": "Transportation",
       "source": "public-api-lists/public-api-lists"
-    },
-    {
-      "name": "Transport for The Netherlands",
-      "api_url": "https://github.com/skywave/KV78Turbo-OVAPI/wiki",
-      "description": "OVAPI, country-wide public transport",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "Transportation",
-      "source": "free-public-apis/apis"
     },
     {
       "name": "Transport for Toronto, Canada",
@@ -18543,7 +18152,7 @@
     {
       "name": "AutoHub API",
       "api_url": "https://steadyapi.com/pages/autohub-car-api",
-      "description": "Access vehicle listings, specifications, pricing data,  and depreciation",
+      "description": "Access vehicle listings, specifications, pricing data, and depreciation",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Yes",
@@ -18601,16 +18210,6 @@
       "source": "ngongcm/public-api-list"
     },
     {
-      "name": "CurrentsAPI",
-      "api_url": "https://currentsapi.services/",
-      "description": "Trending news & events",
-      "auth": "apiKey",
-      "https": "✅",
-      "cors": "Freemium",
-      "category": "Uncategorized",
-      "source": "ngongcm/public-api-list"
-    },
-    {
       "name": "Finnhub",
       "api_url": "https://finnhub.io/",
       "description": "Real-time financial data",
@@ -18654,26 +18253,6 @@
       "name": "Mboum Finance",
       "api_url": "https://mboum.com/api",
       "description": "Stock, options, and market fundamentals",
-      "auth": "apiKey",
-      "https": "✅",
-      "cors": "Freemium",
-      "category": "Uncategorized",
-      "source": "ngongcm/public-api-list"
-    },
-    {
-      "name": "Mediastack",
-      "api_url": "https://mediastack.com/",
-      "description": "Real-time news data feed",
-      "auth": "apiKey",
-      "https": "✅",
-      "cors": "Freemium",
-      "category": "Uncategorized",
-      "source": "ngongcm/public-api-list"
-    },
-    {
-      "name": "NewsAPI",
-      "api_url": "https://newsapi.org/",
-      "description": "Global news and headlines",
       "auth": "apiKey",
       "https": "✅",
       "cors": "Freemium",
@@ -18743,7 +18322,7 @@
     {
       "name": "ScrapeFlow API",
       "api_url": "https://steadyapi.com/pages/scrapeflow-api",
-      "description": "Powerful web scraping API that unblocks any website.",
+      "description": "web scraping API that unblocks any website.",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Yes",
@@ -19013,7 +18592,7 @@
     {
       "name": "Urlix",
       "api_url": "https://app.urlix.me/api",
-      "description": "Free URL Shortener with a powerful API",
+      "description": "Free URL Shortener with a API",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Yes",
@@ -19383,7 +18962,7 @@
     {
       "name": "Shoof Aflam",
       "api_url": "https://shoofaflam.tv/api-docs/",
-      "description": "Arabic streaming guide — search 14,000+ movies/series, get platform availability across 18 services in the Arab world",
+      "description": "Arabic streaming guide - search 14,000+ movies/series, get platform availability across 18 services in the Arab world",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
@@ -19981,16 +19560,6 @@
       "source": "free-public-apis/apis"
     },
     {
-      "name": "US Weather",
-      "api_url": "https://www.weather.gov/documentation/services-web-api",
-      "description": "US National Weather Service",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "category": "Weather",
-      "source": "free-public-apis/apis"
-    },
-    {
       "name": "Visual Crossing",
       "api_url": "https://www.visualcrossing.com/weather-api",
       "description": "Global historical and weather forecast data",
@@ -20073,21 +19642,11 @@
     {
       "name": "BrewPage",
       "api_url": "https://kochetkov-ma.github.io/brewpage-openapi/",
-      "description": "🆓 免费托管 HTML/Markdown/KV/JSON/文件，无需注册，附带短链接",
+      "description": "\udd93 免费托管 HTML/Markdown/KV/JSON/文件，无需注册，附带短链接",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
       "category": "云存储与文件共享",
-      "source": "llf007/public-apis-cn"
-    },
-    {
-      "name": "Transport for Finland",
-      "api_url": "https://digitransit.fi/en/developers/ ",
-      "description": "芬兰交通API",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "交通",
       "source": "llf007/public-apis-cn"
     },
     {
@@ -20351,16 +19910,6 @@
       "source": "llf007/public-apis-cn"
     },
     {
-      "name": "PostalCodes",
-      "api_url": "https://postalcodes.info/api",
-      "description": "全球邮政编码查询、国家数据导出和地址验证数据",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "No",
-      "category": "地理编码",
-      "source": "llf007/public-apis-cn"
-    },
-    {
       "name": "7Timer!",
       "api_url": "http://www.7timer.info/doc.php?lang=zh-CN",
       "description": "国内除了查询慢点，好处是不需要APIKey！",
@@ -20481,32 +20030,12 @@
       "source": "llf007/public-apis-cn"
     },
     {
-      "name": "ReqRes",
-      "api_url": "https://reqres.in/ ",
-      "description": "托管的REST API，准备响应您的AJAX请求",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "开发",
-      "source": "llf007/public-apis-cn"
-    },
-    {
       "name": "ScrapeNinja",
       "api_url": "https://scrapeninja.net",
       "description": "带有Chrome指纹和住宅代理的抓取API",
       "auth": "apiKey",
       "https": "Yes",
       "cors": "Unknown",
-      "category": "开发",
-      "source": "llf007/public-apis-cn"
-    },
-    {
-      "name": "Screenshot",
-      "api_url": "https://www.abstractapi.com/website-screenshot-api",
-      "description": "以编程方式对任何网站进行截图",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Yes",
       "category": "开发",
       "source": "llf007/public-apis-cn"
     },
@@ -20528,16 +20057,6 @@
       "https": "Yes",
       "cors": "Unknown",
       "category": "持续集成",
-      "source": "llf007/public-apis-cn"
-    },
-    {
-      "name": "Clockify",
-      "api_url": "https://clockify.me/developers-api ",
-      "description": "Clockify的基于REST的API可用于向其推送/拉取数据并与其他系统集成",
-      "auth": "apiKey",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "文档与生产力",
       "source": "llf007/public-apis-cn"
     },
     {
@@ -20598,16 +20117,6 @@
       "https": "Yes",
       "cors": "Yes",
       "category": "编程",
-      "source": "llf007/public-apis-cn"
-    },
-    {
-      "name": "Harry Potter Characters",
-      "api_url": "https://hp-api.herokuapp.com/",
-      "description": "哈利波特角色数据，包含图像",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Unknown",
-      "category": "视频",
       "source": "llf007/public-apis-cn"
     },
     {
